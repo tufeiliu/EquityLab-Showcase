@@ -1,0 +1,17 @@
+frequency,strategy,matched_periods,first_decision_date,last_holding_end,compounded_return_pct,ending_notional_10000,mean_reported_turnover_pct
+monthly,Ridge,77,2019-07-31,2025-12-31,135.38,23538.0,5.82
+monthly,Lasso,77,2019-07-31,2025-12-31,134.82,23482.0,5.03
+monthly,Elastic Net,77,2019-07-31,2025-12-31,136.25,23625.0,4.89
+monthly,Equal-weight,77,2019-07-31,2025-12-31,133.14,23314.0,1.38
+monthly,Joint L1,77,2019-07-31,2025-12-31,92.21,19221.0,65.3
+monthly,Joint L2,77,2019-07-31,2025-12-31,150.45,25045.0,55.13
+monthly,Joint Elastic Net,77,2019-07-31,2025-12-31,72.24,17224.0,65.52
+monthly,SPY,77,2019-07-31,2025-12-31,137.24,23724.0,
+quarterly,Ridge,21,2020-09-30,2025-12-31,90.77,19077.0,27.33
+quarterly,Lasso,21,2020-09-30,2025-12-31,93.94,19394.0,18.21
+quarterly,Elastic Net,21,2020-09-30,2025-12-31,92.3,19230.0,22.42
+quarterly,Equal-weight,21,2020-09-30,2025-12-31,99.67,19967.0,4.76
+quarterly,Joint L1,21,2020-09-30,2025-12-31,164.19,26419.0,78.18
+quarterly,Joint L2,21,2020-09-30,2025-12-31,190.36,29036.0,78.88
+quarterly,Joint Elastic Net,21,2020-09-30,2025-12-31,190.8,29080.0,83.26
+quarterly,SPY,21,2020-09-30,2025-12-31,107.31,20731.0,
