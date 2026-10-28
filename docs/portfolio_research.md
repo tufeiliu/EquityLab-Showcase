@@ -17,13 +17,17 @@ Drawdowns for SPY are omitted where the selected portfolio summary did not expor
 
 ![Matched policy outcomes](../figures/policy_return_comparison.png)
 
-## Stock selection versus allocation
+## Stock ranking versus allocation: interpreting the comparison
 
-![Ablation](../figures/selection_vs_weighting.png)
+![Matched portfolio constructions](../figures/selection_vs_weighting.png)
 
-For the same 65 monthly intervals, estimated costs and eligible stocks, the L2 policy's saved position-size allocation ended at approximately **27,074**, while equal weighting its ten highest-ranked holdings ended at approximately **30,121**. The selected-stock equal-weight portfolio had greater average turnover (about **0.35** versus **0.24** per reported interval). On the nine quarterly intervals, the relative order reverses: the original allocation ended at about **19,848** versus about **19,379** for selected-stock equal-weighting.
+The monthly 65-period comparison evaluates **three different construction choices**: equal-weighting every eligible stock (19,550 ending value), the original L2-weighted portfolio (27,074), and equal-weighting the L2-ranked top ten (30,121). SPY ended at 20,583 over the same months. Ending wealth begins from an illustrative 10,000.
 
-The ablation indicates that **selection and weighting must be evaluated separately**. It is not a final causal attribution of return contributions and cannot establish persistence beyond the sample.
+The ranked top-ten portfolio had a higher average reported turnover (**34.8%**) than the original L2 allocation (**23.9%**) and a maximum drawdown of **−27.3%**, versus **−30.1%** for the original allocation. On nine quarterly periods, **the original allocation ended higher** (19,848 versus 19,379).
+
+**Interpretation:** This tests whether a simpler ranked-stock portfolio is economically competitive with the original policy. It is **not a pure test of sizing**: selecting exactly ten stocks can also change which securities are held. These historical differences are not causal return contributions and do not establish a future winning rule.
+
+See [the step-by-step interpretation and illustrative example](selection_and_weighting_explained.md).
 
 ## Risk versus reward
 
