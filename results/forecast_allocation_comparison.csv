@@ -1,0 +1,11 @@
+frequency,approach,periods,ending_wealth,spy_wealth,max_drawdown
+monthly,Return-informed allocation with temporal adjustment,59,30086.900300,18578.305100,-0.213900
+monthly,Return-informed allocation,59,29915.110200,18578.305100,-0.215800
+monthly,Direct allocation policy,59,24668.317200,18578.305100,-0.258000
+monthly,Equal-weight,59,17757.125700,18578.305100,-0.196800
+monthly,Factor-ranked equal-weight selection,59,17754.545300,18578.305100,-0.203700
+quarterly,Return-informed allocation with temporal adjustment,3,13032.580000,12223.873600,0.000000
+quarterly,Return-informed allocation,3,13063.895600,12223.873600,0.000000
+quarterly,Direct allocation policy,3,12902.755800,12223.873600,0.000000
+quarterly,Equal-weight,3,11069.733000,12223.873600,0.000000
+quarterly,Factor-ranked equal-weight selection,3,10980.184500,12223.873600,0.000000

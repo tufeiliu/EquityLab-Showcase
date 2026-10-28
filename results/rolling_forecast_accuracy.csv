@@ -1,0 +1,10 @@
+frequency,model,n,rmse,mae,direction_accuracy
+monthly,baseline_mean,12,0.027339,0.023681,0.750000
+monthly,predicted,12,0.030506,0.026788,0.666667
+monthly,baseline_zero,12,0.031078,0.026041,0.250000
+monthly,baseline_last,12,0.031834,0.026255,0.750000
+monthly,daily_arimax,12,0.040059,0.032375,0.500000
+daily,predicted,126,0.007529,0.005866,0.500000
+daily,baseline_mean,126,0.007545,0.005904,0.500000
+daily,baseline_zero,126,0.007559,0.005886,0.500000
+daily,baseline_last,126,0.010974,0.008685,0.500000

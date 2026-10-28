@@ -1,15 +1,35 @@
-# Methodology (public overview)
+# Research design and methodological controls
 
-The private research engine assembles historical decision-date feature vectors from price history and available financial information; trains return-regression baselines (Ridge, Lasso and Elastic Net); and compares them with directly fitted constrained portfolio policies. Shared portfolio-rule parameters are fitted using **multiple completed historical holding periods**, not future outcomes. Monthly and quarterly decision schedules are evaluated separately against matched SPY holding intervals with estimated trading costs.
+## Objective
 
-## Controls
+Evaluate whether structured equity signals and statistical models can inform tradable portfolio construction relative to simple controls and a broad-market exchange-traded fund benchmark. The focus is economic outcomes after illustrative trading costs, with drawdown, concentration and robustness considered alongside cumulative returns.
 
-- Train using only matured labels at each decision date; tune on earlier chronological periods.
-- Use consistent long-only budget and maximum-weight assumptions.
-- Compare with equal weight and SPY, including costs and turnover diagnostics.
-- Keep market-derived and accounting-feature availability distinct; a carried-forward filing value is not a newly published observation.
-- Examine holdings turnover, concentration, universe completeness and benchmark alignment.
+## Information timing
 
-The exact feature recipes, fitted parameters, optimisation routine, and nonpublic implementation are intentionally **not released**. The public figures and results are derived from saved notebook outputs, not recomputed by the presentation notebooks. This prevents full independent replication; see [limitations](limitations.md).
+For each decision period, data available at the decision cutoff are the only permissible model inputs. The realised holding-period return is a subsequent outcome, not a contemporaneously known feature. Forecast experiments use past-only chronological estimation, and the public rolling time-series experiment predicts a single next observation at each origin.
 
-See [Data Sources and Coverage](data_sources_and_coverage.md) for provider context, inventory counts and the distinction between raw data, historical as-of values and realised return labels.
+This is the **intended research timing contract**. It is not proof that each upstream financial record was independently certified as available at the historical cutoff.
+
+## Comparators
+
+- Broad-market SPY over matching holding-period boundaries.
+- Equal weighting across the eligible sample.
+- A simple ranked-stock equal-weight selection control.
+- Regularised portfolio-allocation families with common budget and concentration constraints.
+- Forecast-supported allocation and temporally conditioned allocation approaches, assessed descriptively in a separate matched sample.
+
+## Portfolio measurement
+
+Wealth is compounded from successive net holding-period returns: \(W_T=W_0\prod_{t=1}^T(1+R^{net}_t)\). Costs are modelled using estimated portfolio turnover. Reported cost rates do not represent complete slippage, taxes, capacity, currency conversion or market-impact modelling.
+
+Metrics include matched-window terminal notional, drawdown, realised volatility, turnover and scorecards relative to SPY. Comparisons across different sample windows or underlying allocation engines are descriptive rather than causal.
+
+## Robustness
+
+The research investigates solver convergence, fallback use, coefficient magnitude availability, stock selection versus capital allocation, sensitivity to illustrative transaction costs, and chronological subsamples. More elaborate learning mechanisms are judged against simpler predictors and portfolio controls.
+
+## Proprietary boundary
+
+The exact signal construction, parameter calibration, training objective, optimiser implementation, learned policy coefficients, security-level decisions and research infrastructure remain private. Published materials disclose sufficient *evaluation logic and limitations* to support an interview discussion without releasing the investment methodology itself.
+
+See [portfolio results](portfolio_research.md), [return modelling](returns_and_volatility.md) and [limitations](limitations.md).
