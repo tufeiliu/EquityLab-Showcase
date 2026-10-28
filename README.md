@@ -56,11 +56,26 @@ The coloured lines reflect alternative research allocations without disclosing i
 
 For the matching benchmark tables, see [portfolio performance and benchmarking](notebooks/01_portfolio_evidence.ipynb). These images preserve actual research curves. The public aggregate data **cannot support reconstructed period-by-period drawdowns or rolling Sharpe ratios**, so those are intentionally not simulated.
 
-## Where does portfolio value come from?
+## Stock ranking versus portfolio allocation
 
-![Selection versus weighting](figures/selection_vs_weighting.png)
+**Two questions are being tested:** (1) Does selecting stocks from an L2-based ranking produce better historical results than spreading capital across the whole eligible universe? (2) Does using the L2 policy’s original allocations improve outcomes compared with putting equal weights in the ten highest-ranked names?
 
-A controlled monthly ablation shows that equal weighting among the L2 policy's ten highest-ranked holdings generated a higher historical ending notional than the policy's original position sizes, **with greater turnover**. That suggests portfolio composition mattered substantially; it does not establish that a particular weighting rule will dominate out of sample.
+![Portfolio outcomes across allocation choices](figures/selection_vs_weighting.png)
+
+| Same monthly evaluation window (65 periods) | Ending value from 10,000 | Average turnover | Maximum drawdown |
+| --- | ---: | ---: | ---: |
+| Equal-weight all eligible stocks | 19,550 | 5.9% | −19.7% |
+| Original L2 policy allocation | 27,074 | 23.9% | −30.1% |
+| Equal-weight L2-ranked top 10 | **30,121** | **34.8%** | −27.3% |
+| SPY (matched benchmark) | 20,583 | Not reported | Not reported |
+
+**How to read the comparison:** The top-10 equal-weight approach retains the L2 ranking information but replaces the original portfolio construction with a ten-stock, 10%-each allocation. Its higher ending value suggests that the *ranking* contained useful historical information; it does **not** prove that equal weighting is always better or quantify how much return came uniquely from stock selection versus sizing. The original policy may hold a different number of securities, so **both holdings composition and weights can change**.
+
+This result comes with greater average turnover for the top-10 portfolio, which matters for trading costs. **Quarterly results differ:** over only nine matched periods, the original L2 allocation ends at 19,848 and the equal-weight top 10 at 19,379. All comparisons are exploratory and sample-specific.
+
+![Turnover comparison](figures/selection_turnover_comparison.png)
+
+For a worked example, the monthly/quarterly benchmarking table and the limits of the ablation, see [Stock ranking and allocation: interpretation](docs/selection_and_weighting_explained.md). The [portfolio evidence notebook](notebooks/01_portfolio_evidence.ipynb) reproduces these public tables and charts from aggregate CSVs.
 
 ## Return forecasting and volatility
 
