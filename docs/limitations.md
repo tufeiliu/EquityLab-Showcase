@@ -1,21 +1,21 @@
-# Limitations and interpretation
+# Limitations and evidence boundaries
 
-**Status: `EXPLORATORY_ONLY`.** Do not describe the figures as verified alpha, investable forecasts, or a production trading system.
+The results are **exploratory research**, not certified investment performance.
 
-| Issue | Potential effect |
-|---|---|
-| **31-stock candidate universe, not point-in-time certified** | Historical survivor / security-selection bias; missing delistings |
-| **Different monthly/quarterly historical windows** | Frequency is confounded with market regime and sample duration |
-| **Sparse accounting coverage** | Results may be predominantly driven by market features and feature availability |
-| **Price-vendor adjustment conflicts** | Some labels and adjusted prices require further reconciliation |
-| **Six extraordinary returns in an older, different panel** | Remain unreconstructed; do not carry their reported gains into the newer analysis |
-| **Transaction-cost, trade drift, sector metadata, liquidity and FX approximations** | Notional wealth curves may overstate live achievable performance |
-| **Local policy optimiser / model-selection choices** | Best-performing variant can reflect optimisation and research-selection noise |
-| **No certified independent final test or statistical significance** | Selected apparent outperformance may not persist |
-| **Source code and raw data withheld** | Public assets can be viewed and tables reproduced, but original experiments cannot be independently rerun |
+| Limitation | Consequence for interpretation |
+| --- | --- |
+| 31-stock historical sample | Historical constituents are not independently certified as point-in-time investable or delisting complete; survivor and selection bias remain possible |
+| Dated accounting coverage is sparse | Company characteristics are not reliably observed for every stock-date; missingness may affect the comparisons |
+| Adjusted-price source differences | Some source adjustments and corporate actions remain unverified |
+| Sample mismatch | Monthly, quarterly, forecast-informed and stochastic evaluations do not share a universal calendar or estimation design |
+| Short quarterly history | Nine quarterly portfolio intervals and three quarterly forecast-informed matched intervals are too few for reliable model ranking |
+| Research and model search | Choosing among many candidate specifications can inflate apparent historical success |
+| Simplified implementation costs | Estimated turnover costs do not fully cover slippage, market impact, taxes, capacity, liquidity or broker execution |
+| SPY and currency | A matched SPY series is not a fully hedged or GBP-executed investable benchmark |
+| Limited statistical evidence | Stronger independently held-out data, uncertainty analysis and broader market conditions are needed before an alpha claim |
+| Private methodology | The public aggregates can be reviewed and replotted, but complete experiments cannot be independently rerun from released files |
+| Stochastic model assumptions | Conditional scenario distributions are sensitive to historical drift, covariance and block-resampling choices |
 
-Portfolio wealth begins at an illustrative notional of 10,000; GBP labelling is not proof that USD-denominated stock and SPY performance was currency-hedged or converted. The figures show experimental outcomes across matched periods *within* each decision frequency.
+The illustrative starting notional of 10,000 is a **unit of account**, not evidence of live capital deployment. Numbers should not be extrapolated to portfolio capacity or institutional execution.
 
-Next evaluations: common-calendar frequency tests, market-only vs fundamentals ablations, cost/turnover sensitivity, sector coverage reconciliation, and stronger point-in-time historical membership data.
-
-For empirical inventory definitions, cohort discontinuity and joined-value interpretation see [Data Sources and Coverage](data_sources_and_coverage.md).
+A positive result may justify further investigation, but **not investment approval** based on these outputs alone.

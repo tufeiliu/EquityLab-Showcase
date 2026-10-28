@@ -1,60 +1,29 @@
-# Data sources, provenance and coverage
+# Data sources, coverage and provenance
 
-**Status: exploratory; not a publishable market-data release.** This document describes the research assets at a high level and aggregates from earlier local audit outputs. The private underlying datasets, exact model features and proprietary optimisation implementations are not included.
+## Data families
 
-## Sources and what they supply
+| Data family | Role | Verification boundary |
+| --- | --- | --- |
+| Historical adjusted equity prices | Return endpoints, market statistics and risk characteristics | Vendor adjustments and all security events not independently certified |
+| SPY historical prices | Matching market benchmark and daily time-series diagnostics | Currency and execution conventions simplified |
+| Dated company accounts | Company-characteristic research where available | Filing availability dates and completeness not fully audited |
+| Security descriptors | Coverage and grouping analysis | Historical membership and descriptive metadata may be incomplete |
+| Macroeconomic series | Broader potential research context | No claim that every available series entered published models |
 
-| Data family | Sources / context | Intended role | Verification status |
-| --- | --- | --- | --- |
-| Daily equity prices | Cached provider-adjusted OHLCV/price histories, including Tiingo-based files and other local price-provider exports | Historical return endpoints; momentum, realised volatility, beta and drawdown | Selected one consistent series per ticker; adjustment/corporate action coverage not independently certified |
-| SPY benchmark | Local historical SPY adjusted-price series (Tiingo-labelled in previous audit) | Same-period comparison against portfolios | Endpoint matching was implemented, but USD/GBP currency treatment is not a complete execution model |
-| Accounting information | Historical company financial records/SEC-oriented acquisition and dated feature exports | Operating margin, revenue growth, net margin, net-income growth where dated records exist | Availability-date handling is reported, but full per-company filing and amendment certification is not established |
-| Sector/security metadata | Existing local reference exports, partly conflicting | Descriptive sectors and universe coverage auditing | Conflicting sector labels remain; historical membership not certified |
-| Macro context | FRED/ALFRED acquisition infrastructure exists in the wider private project | Potential research inputs | **Not established as a fitted input in the reported portfolio comparison** |
+## Coverage
 
-Provider labels describe the existing research context. They do not establish that every record or returned adjustment has been independently checked or that every provider was used in every fitted model.
+The price audit describes **31 candidate stock tickers**, approximately **74,592 adjusted-price rows** from **36 source series**, spanning January 2005 to October 2026 in aggregate. Individual stocks have shorter and differing histories. This inventory is not the evaluation sample and does not imply that all assets traded continuously throughout the full range.
 
-## Two different stock cohorts
+The matched portfolio-policy analysis uses **65 monthly** and **nine quarterly** intervals. Only selected historical stock-period observations have dated accounting fields; a carry-forward accounting value is not a distinct company filing.
 
-**The current daily adjusted-price experiment:** 31 candidate stock tickers; 74,592 price rows drawn from 36 source files/series, spanning 2005-01-03 to 2026-10-23 in aggregate. Not every ticker has that full range. Four minor source differences were reported by the dry run. The selected candidate universe is not certified point-in-time or delisting-complete.
+An additional data inventory from a different stock cohort is preserved in [historical panel coverage](../results/historical_panel_coverage.csv), but its stock counts should **not** be merged with the 31-stock portfolio evaluation. The coverage plot below shows a composition discontinuity reflecting data availability, not market-wide listings.
 
-**The older quarterly factor panel:** 113 stocks across 903 stock-period rows on 23 quarterly dates. The number of represented companies increases from 8 before 2024 to about 111 around 2024 Q1. This reflects changed data coverage, **not** an observed change in the total investable market. Neither the older cohort nor the newer one is a certified historical universe.
+![Historical panel coverage](../figures/historical_panel_coverage.png)
 
-![Earlier panel data availability](../figures/historical_panel_coverage.png)
+![Universe coverage](../figures/universe_coverage.png)
 
-## Monthly and quarterly evaluation
+## Reconciliation and point-in-time limitations
 
-![Candidate, evaluated and invalid intervals](../figures/evaluation_interval_summary.png)
+Some cached price sources differed marginally in adjustment or representation. Selecting a consistent series reduces accidental mixing but does not certify adjustment correctness. Historical delistings, company filings, security master completeness, effective timestamps and exchange eligibility are not fully reconstructed.
 
-| Field | Monthly | Quarterly |
-| --- | ---: | ---: |
-| Candidate intervals | 95 | 31 |
-| Evaluated intervals | 77 | 21 |
-| Invalid intervals | 12 | 4 |
-| Joined accounting feature values | 1,356 | 446 |
-
-The 77 and 21 evaluated holding intervals cover different calendar windows (July 2019–December 2025 and September 2020–December 2025 respectively). Candidate, evaluated and invalid categories **do not necessarily partition the total** because early windows may lack sufficient training history or satisfy other exclusion logic. Do not calculate a fake success rate by subtracting these counts.
-
-![Reported accounting joins](../figures/accounting_join_summary.png)
-
-An accounting join is a **feature value joined to a decision-date row**, not a new independent financial statement. A previously available filing value can legitimately be carried into later decisions. The 1,356/446 counts do not show the number of distinct reporting events, reliable contemporary cross-sectional coverage or incremental predictive power. Earlier selected-portfolio diagnostics found considerably lower financial indicator coverage than market-signal coverage.
-
-## Data integrity and audit results
-
-- A reconciliation check reported four minor price-source differences across cached series; selecting a single source prevents accidental within-ticker vendor mixing, but does not validate every adjustment.
-- The older panel had **six extreme return labels** that could not be independently reconstructed from compatible cached adjusted-price files. This is an unresolved verification problem, not evidence that those six returns are false.
-- Historical delistings, listing membership, capital actions, filing timestamps and security master completeness remain uncertified; survivor-selection bias could be material.
-- Full data are not redistributed because of licence/privacy considerations and to protect proprietary research inputs. The public `results/data_inventory_summary.csv` and `results/historical_panel_coverage.csv` contain only safe aggregated information.
-
-## Processing at a high level
-
-1. Inventory cached raw price, benchmark and financial sources.
-2. Reconcile duplicate series and select one consistent adjusted-price history per ticker; audit conflicts.
-3. Construct decision-date market features using historical price windows; join dated accounting information only when available at that decision time.
-4. Define next-period holding returns with matched stock/SPY endpoints; reject/flag problematic intervals.
-5. Fit historical-only regression controls and jointly learned allocation policies; evaluate subsequent periods under explicit constraints and cost assumptions.
-6. Publish **only aggregate**, carefully labelled presentation charts and tables. Private code and files are not needed to view these exports.
-
-## What remains unknown
-
-The public materials do **not** prove that the stock cohort is representative, that every financial observation was publication-date verified, that stock returns are independently corporate-action certified, or that apparent net outperformance generalises. They do not permit reproduction of the private backtest. See [Limitations](limitations.md).
+Published CSVs are aggregate-only and do not provide vendor data, ticker-level return histories or feature vectors. [Limitations](limitations.md) apply to every reported result.

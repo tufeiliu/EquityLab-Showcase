@@ -1,111 +1,111 @@
-# EquityLab — Public Research Showcase
+# EquityLab | Systematic Equity Research
 
-**Historical portfolio construction, chronological evaluation and transparent limitations.**
+**A public case study in portfolio construction, out-of-sample forecasting and stochastic risk.**
 
-> **Research status: `EXPLORATORY_ONLY`.** This is a presentation of exploratory backtests, not evidence of live performance or validated alpha. The private model implementation, raw datasets and exact optimisation settings are not distributed.
+EquityLab examines whether historical price information, company characteristics and statistical modelling can support better equity allocation decisions. The project evaluates chronological portfolio strategies, compares them with simple investment baselines and SPY, investigates return predictability and models portfolio downside under alternative market scenarios.
 
-## Research question
+The emphasis is on **research discipline rather than a claim of predictable profits**: comparable time windows, transaction costs, solver diagnostics, risk decomposition, error analysis and explicit uncertainty.
 
-Can a portfolio-allocation policy learned **jointly from multiple completed historical periods** improve net portfolio outcomes compared with regularised regression-based allocation, simple equal weight, and SPY? The research considers **monthly and quarterly** portfolio decisions, with long-only position constraints and illustrative transaction costs.
+> **Research interpretation:** All reported results are exploratory historical or simulated findings. They are not live trading returns, independently certified point-in-time results, guarantees of alpha or investment advice.
 
-## Data sources and coverage
+## Research at a glance
 
-This showcase is supported by historical equity **adjusted daily price records**, a locally cached **SPY benchmark**, and a more sparsely populated set of **dated accounting features**. The wider private project has SEC-oriented company-financial acquisition and Tiingo/FRED/ALFRED provider integrations; this does **not** mean every source is used in the plotted strategies. See the [data sources and coverage report](docs/data_sources_and_coverage.md) for source roles, quality checks and what is still unverified.
+| Research component | Public evidence |
+| --- | --- |
+| Equity selection and allocation | Equal-weight controls, regularised allocation families, SPY-matched historical scorecards |
+| Selection versus weighting | Separate comparison of portfolio composition and position sizing |
+| Return forecasting | Rolling, one-observation-ahead ARIMA/ARIMAX comparisons against historical-mean and zero-return baselines |
+| Volatility and market dependence | Distribution diagnostics, return autocorrelation, squared-return dependence and conditional-variance models |
+| Stochastic portfolio risk | Correlated geometric Brownian motion and joint historical block bootstrap |
+| Data quality | Coverage audits, dated-information limitations and implementation assumptions |
 
-| Data inventory (reported local audit) | Value | Interpretation |
-| --- | ---: | --- |
-| Daily-price candidate universe | **31 stocks** | Stocks with selected compatible daily histories, not a certified historical investable universe |
-| Adjusted-price rows / source series | **74,592 / 36** | Aggregate cached price inventory; individual ticker histories vary |
-| Aggregate price-date extent | 2005-01-03 to 2026-10-23 | Earliest and latest observations across sources, not the evaluation period |
-| Earlier quarterly factor panel | **113 stocks / 903 rows** | A **different** historical dataset and stock cohort |
-| Monthly evaluated intervals | **77** | July 2019 to December 2025, subject to research exclusions |
-| Quarterly evaluated intervals | **21** | September 2020 to December 2025, a different starting window |
-| Joined dated accounting values | **1,356 monthly / 446 quarterly** | Feature-date joins; **not** unique filings or evidence of complete coverage |
-| Legacy extreme return labels awaiting reconstruction | **6** | Still unresolved; not used as verified evidence |
+## Portfolio research: matched periods
 
-### Data availability and cohort changes
+![Matched portfolio comparison](figures/policy_return_comparison.png)
 
-![Historical quarterly-panel stock and accounting coverage](figures/historical_panel_coverage.png)
+These panels are **separate samples**, not a controlled comparison of monthly versus quarterly rebalancing. The initial illustrative notional is 10,000. Estimated trading costs are incorporated in the portfolio series; they do not constitute a complete execution model.
 
-*The earlier quarterly panel represented just eight stocks on dates before 2024, then more than 100 as data coverage expanded. This is a **dataset composition discontinuity**, not a market-wide listing event.*
+| Allocation approach | Monthly: 65 periods | Quarterly: 9 periods |
+| --- | ---: | ---: |
+| SPY | 20,583 | 16,598 |
+| Equal-weight universe | 19,550 | 14,929 |
+| Simple ranked selection, equal-weight | 18,261 | 15,706 |
+| Regularised allocation — L1 | 23,316 | 19,532 |
+| **Regularised allocation — L2** | **27,074** | **19,848** |
+| Regularised allocation — elastic net | 25,466 | **20,449** |
 
-| Evaluation interval availability | Accounting feature-value joins |
-|:--:|:--:|
-| ![Monthly quarterly decision interval availability](figures/evaluation_interval_summary.png) | ![Historical financial join counts](figures/accounting_join_summary.png) |
+The monthly sample contains 65 holding intervals from July 2020 through December 2025; the quarterly sample contains nine from September 2023 through December 2025. See [portfolio research](docs/portfolio_research.md) for drawdown and solver-reliability context.
 
-The additional financial values reflect point-in-time joining attempts, not independently verified new filings. Some financial ratios are available for only a minority of stock-date observations; the market features are substantially more complete. These limitations make market-only versus combined-feature ablations essential next work.
+## Historical performance through time
 
-The public [data inventory CSV](results/data_inventory_summary.csv) and [historical panel coverage CSV](results/historical_panel_coverage.csv) support the summary without releasing proprietary ticker-level datasets.
+The dated wealth trajectories below come directly from saved historical research figures. Portfolio holdings, security-level returns, fitted coefficients and strategy implementation are not published. **SPY is displayed in black.** Wealth is normalised to an initial 10,000 units; different samples are not directly comparable.
 
-## Portfolio results against SPY
+### Portfolio policies: 65 monthly and 9 quarterly matched periods
 
-![Monthly and quarterly portfolio wealth compared with SPY](figures/portfolio_vs_spy.png)
+![Monthly portfolio wealth compared with SPY](figures/phase1_monthly_wealth.png)
 
-*Saved exploratory experiment output. Initial notional: 10,000 currency units, labelled £10,000 in the original analysis; FX conversion and real-world GBP execution were not fully modelled. Within each frequency, strategies and SPY use matched evaluation periods. **Monthly and quarterly cover different calendar windows and should not be compared as an isolated frequency effect.***
+![Quarterly portfolio wealth compared with SPY](figures/phase1_quarterly_wealth.png)
 
-### Aggregate results
+### Forecast-informed allocation: 59 monthly and 3 quarterly matched periods
 
-| Strategy | Monthly ending notional | Quarterly ending notional |
-|:--|--:|--:|
-| SPY | 23,724 | 20,731 |
-| Equal-weight | 23,314 | 19,967 |
-| Ridge | 23,538 | 19,077 |
-| Lasso | 23,482 | 19,394 |
-| Elastic Net | 23,625 | 19,230 |
-| Joint L1 | 19,221 | 26,419 |
-| **Joint L2** | **25,045** | **29,036** |
-| **Joint Elastic Net** | **17,224** | **29,080** |
+The coloured lines reflect alternative research allocations without disclosing internal selection rules. The short quarterly test is descriptive only.
 
-The monthly comparison spans **77 matched holding periods** (July 2019–December 2025); the quarterly comparison **21** (September 2020–December 2025). Amounts are rounded from saved notebook outputs and use the same starting notional. They are **not audited investment returns**. See [`results/aggregate_strategy_summary.csv`](results/aggregate_strategy_summary.csv) for all aggregate strategy results and reported turnover.
+![Monthly forecast-informed portfolio wealth](figures/phase2_monthly_wealth.png)
 
-The direct policies show very different outcomes across penalties and frequencies. This is a research finding about **sensitivity**, not evidence that a winning variant will generalise.
+![Quarterly forecast-informed portfolio wealth](figures/phase2_quarterly_wealth.png)
 
-## Portfolio composition and stability
+For the matching benchmark tables, see [portfolio performance and benchmarking](notebooks/01_portfolio_evidence.ipynb). These images preserve actual research curves. The public aggregate data **cannot support reconstructed period-by-period drawdowns or rolling Sharpe ratios**, so those are intentionally not simulated.
 
-| Monthly positions with at least 1% allocation | Monthly consecutive-date holdings overlap |
-|:--:|:--:|
-| ![Monthly selected-position counts](figures/monthly_portfolio_size.png) | ![Monthly portfolio overlap](figures/monthly_holdings_overlap.png) |
+## Where does portfolio value come from?
 
-| Quarterly positions with at least 1% allocation | Quarterly consecutive-date holdings overlap |
-|:--:|:--:|
-| ![Quarterly selected-position counts](figures/quarterly_portfolio_size.png) | ![Quarterly portfolio overlap](figures/quarterly_holdings_overlap.png) |
+![Selection versus weighting](figures/selection_vs_weighting.png)
 
-The overlap charts use *Jaccard similarity of selected tickers at consecutive dates*. A model can be fully invested in many tiny positions, so a minimum 1% threshold is used when displaying meaningful portfolio size. The detailed trade lists, weights and exact feature-selection settings remain private.
+A controlled monthly ablation shows that equal weighting among the L2 policy's ten highest-ranked holdings generated a higher historical ending notional than the policy's original position sizes, **with greater turnover**. That suggests portfolio composition mattered substantially; it does not establish that a particular weighting rule will dominate out of sample.
 
-## Daily-price candidate availability
+## Return forecasting and volatility
 
-![Daily-price stock universe over the evaluation dates](figures/universe_coverage.png)
+| Rolling SPY return test | ARIMA RMSE | Historical-mean RMSE | Observation count |
+| --- | ---: | ---: | ---: |
+| Monthly holdout | 0.030506 | **0.027339** | 12 months |
+| Daily holdout | **0.007529** | 0.007545 | 126 trading days |
 
-This chart concerns the **31-stock daily-price experiment**, not the 113-stock legacy quarterly panel shown earlier. Neither universe is point-in-time certified.
+![Monthly return forecast errors](figures/monthly_forecast_rmse.png)
 
-## Explore the evidence
+The monthly historical mean outperformed the fitted ARIMA specification. The daily difference was marginal. Squared-return dependence is more evident than ordinary return dependence in the monthly diagnostics; a conditional-variance investigation therefore complements point-return forecasting. Read [time-series research](docs/returns_and_volatility.md).
 
-| Public resource | Content |
-|:--|:--|
-| [01 — Research overview](notebooks/01_research_overview.ipynb) | Self-contained figures, aggregate performance table and limitations |
-| [02 — Portfolio analysis](notebooks/02_portfolio_analysis.ipynb) | Portfolio composition, overlap and dataset diagnostics |
-| [Data sources and coverage](docs/data_sources_and_coverage.md) | Providers, inventory, data availability, joins, cohort discrepancy and unresolved audits |
-| [Data inventory CSV](results/data_inventory_summary.csv) | Audit numbers with evidence labels; no private security records |
-| [Historical panel coverage CSV](results/historical_panel_coverage.csv) | Aggregate decision-date counts without individual holdings |
-| [Methodology](docs/methodology.md) | High-level research design and chronological controls |
-| [Limitations](docs/limitations.md) | Detailed reasons results remain exploratory |
-| [Aggregate results CSV](results/aggregate_strategy_summary.csv) | Small reviewed, aggregate table; no individual holdings or model parameters |
+## Scenario analysis
 
-The notebooks **run without access to the private modelling scripts**. They load only the included images and aggregate CSV and do not recompute backtests. That is a disclosure choice and means the published notebook is **not a fully reproducible investment experiment**.
+![Illustrative scenario downside range](figures/stochastic_stress_ranges.png)
 
-## What is public, and what is not
+Correlated GBM and historical block resampling evaluate hypothetical outcomes using historical calibration and fixed portfolio snapshots. These scenarios help expose tail risk and model dependence, **not** establish independent forecasting power. Read [risk and simulation](docs/stochastic_risk.md).
 
-Public: the research question, high-level methodology, aggregate evaluation tables, representative figures and known failure modes. Private: model-source implementation, detailed optimisation objective/settings, company-level features, holdings histories, proprietary research code and raw datasets.
+## Browse the evidence
 
-## Local viewing
+- [Research design and controls](docs/methodology.md)
+- [Portfolio performance, attribution and numerical reliability](docs/portfolio_research.md)
+- [Return analysis and rolling forecasting](docs/returns_and_volatility.md)
+- [Simulation and portfolio risk](docs/stochastic_risk.md)
+- [Data provenance and coverage](docs/data_sources_and_coverage.md)
+- [Limitations and responsible interpretation](docs/limitations.md)
+- [Aggregate CSV tables](results/) and [self-contained public charts](figures/)
+- [Portfolio performance and benchmarking](notebooks/01_portfolio_evidence.ipynb), [rolling forecasts and volatility](notebooks/02_forecasts_and_volatility.ipynb), and [stochastic scenario risk](notebooks/03_stochastic_risk.ipynb), each with a distinct focus and using **aggregate public files only**
 
-```bash
-python -m pip install jupyterlab pandas matplotlib
-jupyter lab
-```
+## What is public—and what is not
 
-Open the notebooks from this repository directory. No market-data credentials are needed to view the saved analysis.
+The public repository contains narrative research, aggregated metrics, charts and safe aggregate-data plotting examples. It **does not distribute** private research notebooks, raw vendor data, historical security-level return panels, holdings histories, selected signals, feature transformations, trained parameters, portfolio-policy implementation, simulation engine or cache artefacts. This separation protects proprietary work and avoids redistributing restricted market data.
 
-## Licence
+## Interpretation
 
-Original materials: **All rights reserved**. See [LICENSE](LICENSE). Third-party rights remain with their respective owners. Nothing herein constitutes investment advice.
+EquityLab is an interview-focused research case study demonstrating hypothesis formation, chronological validation, portfolio construction, model diagnostics and investment risk judgement. Its results motivate further investigation, **not a live-investment recommendation**.
+
+The information in this repository is for research communication only, not financial advice.
+
+## Public notebook guide
+
+| Notebook | Focus |
+| --- | --- |
+| [01 — Portfolio performance](notebooks/01_portfolio_evidence.ipynb) | Dated wealth charts, SPY-matched benchmarking, allocation and risk diagnostics |
+| [02 — Return forecasts and volatility](notebooks/02_forecasts_and_volatility.ipynb) | One-step forecast accuracy, statistical baselines, conditional-volatility model selection |
+| [03 — Stochastic scenario risk](notebooks/03_stochastic_risk.ipynb) | GBM and block-bootstrap scenario distributions, downside and benchmark risk |
+
+Historical wealth figures are included only in Notebook 01. Return-forecast comparisons appear only in Notebook 02; scenario summaries only in Notebook 03.

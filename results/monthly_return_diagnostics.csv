@@ -1,0 +1,2 @@
+asset,n,mean_simple,median_simple,annualized_log_mean,annualized_volatility,skewness,excess_kurtosis,jarque_bera_p,historical_var_05_simple,historical_es_05_simple,worst_simple,best_simple,nonpositive_month_fraction
+SPY,65,0.012080,0.020660,0.133270,0.149200,-0.611280,-0.151140,0.134920,-0.057930,-0.079700,-0.095260,0.096490,0.323080

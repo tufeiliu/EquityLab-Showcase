@@ -1,0 +1,11 @@
+frequency,model,periods,converged,nonconverged,unknown_status
+monthly,equal_all,65,0,0,65
+monthly,equal_top10,65,0,0,65
+monthly,joint_elastic_net,65,65,0,0
+monthly,joint_l1,65,65,0,0
+monthly,joint_l2,65,65,0,0
+quarterly,equal_all,9,0,0,9
+quarterly,equal_top10,9,0,0,9
+quarterly,joint_elastic_net,9,9,0,0
+quarterly,joint_l1,9,9,0,0
+quarterly,joint_l2,9,9,0,0
