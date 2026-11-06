@@ -1,0 +1,7 @@
+representation,mandate,equitylab_information_wealth,mpt_information_wealth,equitylab_information_sharpe,mpt_information_sharpe,paired_excess_hac_t
+Grouped,Growth,12345.055373,11841.149721,0.707224,0.4727,2.824109
+Grouped,Balanced,11389.405572,11486.197034,0.387294,0.533194,-0.698034
+Grouped,Defensive,11539.411157,11333.359634,0.712192,0.779995,0.805667
+Hierarchical,Growth,12150.08555,11841.149721,0.591316,0.4727,1.599454
+Hierarchical,Balanced,11197.359612,11486.197034,0.112004,0.533194,-1.766731
+Hierarchical,Defensive,11820.78368,11333.359634,0.953961,0.779995,1.390516

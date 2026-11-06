@@ -1,0 +1,649 @@
+representation,mandate,strategy,period_end,hindsight_blend_net_return
+Grouped,Growth,EquityLab,2023-01-31,0.06088732578
+Grouped,Growth,EquityLab,2023-02-28,-0.02514268845
+Grouped,Growth,EquityLab,2023-03-31,0.037124943
+Grouped,Growth,EquityLab,2023-04-28,0.01597498718
+Grouped,Growth,EquityLab,2023-05-31,0.004616161373
+Grouped,Growth,EquityLab,2023-06-30,0.06481418806
+Grouped,Growth,EquityLab,2023-07-31,0.03273326114
+Grouped,Growth,EquityLab,2023-08-31,-0.01625199327
+Grouped,Growth,EquityLab,2023-09-29,-0.04739329503
+Grouped,Growth,EquityLab,2023-10-31,-0.02170861795
+Grouped,Growth,EquityLab,2023-11-30,0.09134385462
+Grouped,Growth,EquityLab,2023-12-29,0.04566248764
+Grouped,Growth,EquityLab,2024-01-31,0.015926448
+Grouped,Growth,EquityLab,2024-02-29,0.05218687873
+Grouped,Growth,EquityLab,2024-03-28,0.0327238951
+Grouped,Growth,EquityLab,2024-04-30,-0.04031965129
+Grouped,Growth,EquityLab,2024-05-31,0.05057970437
+Grouped,Growth,EquityLab,2024-06-28,0.03528469038
+Grouped,Growth,EquityLab,2024-07-31,0.01210907354
+Grouped,Growth,EquityLab,2024-08-30,0.02336558886
+Grouped,Growth,EquityLab,2024-09-30,0.02100918328
+Grouped,Growth,EquityLab,2024-10-31,-0.008923591746
+Grouped,Growth,EquityLab,2024-11-29,0.05963351154
+Grouped,Growth,EquityLab,2024-12-31,-0.02409975857
+Grouped,Growth,EquityLab,2025-01-31,0.02685640186
+Grouped,Growth,EquityLab,2025-02-28,-0.0126948257
+Grouped,Growth,EquityLab,2025-03-31,-0.05572094517
+Grouped,Growth,EquityLab,2025-04-30,-0.008670158566
+Grouped,Growth,EquityLab,2025-05-30,0.06284488044
+Grouped,Growth,EquityLab,2025-06-30,0.0513937553
+Grouped,Growth,EquityLab,2025-07-31,0.02303148013
+Grouped,Growth,EquityLab,2025-08-29,0.02051955449
+Grouped,Growth,EquityLab,2025-09-30,0.03560647421
+Grouped,Growth,EquityLab,2025-10-31,0.0238374013
+Grouped,Growth,EquityLab,2025-11-28,0.001949975076
+Grouped,Growth,EquityLab,2025-12-31,0.0007715410139
+Grouped,Growth,EL / Hierarchical state-space,2023-01-31,0.06088732578
+Grouped,Growth,EL / Hierarchical state-space,2023-02-28,-0.02514268845
+Grouped,Growth,EL / Hierarchical state-space,2023-03-31,0.037124943
+Grouped,Growth,EL / Hierarchical state-space,2023-04-28,0.01597498718
+Grouped,Growth,EL / Hierarchical state-space,2023-05-31,0.004616161373
+Grouped,Growth,EL / Hierarchical state-space,2023-06-30,0.06481418806
+Grouped,Growth,EL / Hierarchical state-space,2023-07-31,0.03273326114
+Grouped,Growth,EL / Hierarchical state-space,2023-08-31,-0.01625199327
+Grouped,Growth,EL / Hierarchical state-space,2023-09-29,-0.04739329503
+Grouped,Growth,EL / Hierarchical state-space,2023-10-31,-0.02170861795
+Grouped,Growth,EL / Hierarchical state-space,2023-11-30,0.09134385462
+Grouped,Growth,EL / Hierarchical state-space,2023-12-29,0.04566248764
+Grouped,Growth,EL / Hierarchical state-space,2024-01-31,0.015926448
+Grouped,Growth,EL / Hierarchical state-space,2024-02-29,0.05218687873
+Grouped,Growth,EL / Hierarchical state-space,2024-03-28,0.0327238951
+Grouped,Growth,EL / Hierarchical state-space,2024-04-30,-0.04031965129
+Grouped,Growth,EL / Hierarchical state-space,2024-05-31,0.05057970437
+Grouped,Growth,EL / Hierarchical state-space,2024-06-28,0.03528469038
+Grouped,Growth,EL / Hierarchical state-space,2024-07-31,0.01210907354
+Grouped,Growth,EL / Hierarchical state-space,2024-08-30,0.02336558886
+Grouped,Growth,EL / Hierarchical state-space,2024-09-30,0.02100918328
+Grouped,Growth,EL / Hierarchical state-space,2024-10-31,-0.008923591746
+Grouped,Growth,EL / Hierarchical state-space,2024-11-29,0.05963351154
+Grouped,Growth,EL / Hierarchical state-space,2024-12-31,-0.02409975857
+Grouped,Growth,EL / Hierarchical state-space,2025-01-31,0.02685640186
+Grouped,Growth,EL / Hierarchical state-space,2025-02-28,-0.0126948257
+Grouped,Growth,EL / Hierarchical state-space,2025-03-31,-0.05572094517
+Grouped,Growth,EL / Hierarchical state-space,2025-04-30,-0.008670158566
+Grouped,Growth,EL / Hierarchical state-space,2025-05-30,0.06284488044
+Grouped,Growth,EL / Hierarchical state-space,2025-06-30,0.0513937553
+Grouped,Growth,EL / Hierarchical state-space,2025-07-31,0.02303148013
+Grouped,Growth,EL / Hierarchical state-space,2025-08-29,0.02051955449
+Grouped,Growth,EL / Hierarchical state-space,2025-09-30,0.03560647421
+Grouped,Growth,EL / Hierarchical state-space,2025-10-31,0.0238374013
+Grouped,Growth,EL / Hierarchical state-space,2025-11-28,0.001949975076
+Grouped,Growth,EL / Hierarchical state-space,2025-12-31,0.0007715410139
+Grouped,Growth,EL / Quality low-rank Kalman,2023-01-31,0.06088732578
+Grouped,Growth,EL / Quality low-rank Kalman,2023-02-28,-0.02514268845
+Grouped,Growth,EL / Quality low-rank Kalman,2023-03-31,0.037124943
+Grouped,Growth,EL / Quality low-rank Kalman,2023-04-28,0.01597498718
+Grouped,Growth,EL / Quality low-rank Kalman,2023-05-31,0.004616161373
+Grouped,Growth,EL / Quality low-rank Kalman,2023-06-30,0.06481418806
+Grouped,Growth,EL / Quality low-rank Kalman,2023-07-31,0.03273326114
+Grouped,Growth,EL / Quality low-rank Kalman,2023-08-31,-0.01625199327
+Grouped,Growth,EL / Quality low-rank Kalman,2023-09-29,-0.04739329503
+Grouped,Growth,EL / Quality low-rank Kalman,2023-10-31,-0.02170861795
+Grouped,Growth,EL / Quality low-rank Kalman,2023-11-30,0.09134385462
+Grouped,Growth,EL / Quality low-rank Kalman,2023-12-29,0.04566248764
+Grouped,Growth,EL / Quality low-rank Kalman,2024-01-31,0.015926448
+Grouped,Growth,EL / Quality low-rank Kalman,2024-02-29,0.05218687873
+Grouped,Growth,EL / Quality low-rank Kalman,2024-03-28,0.0327238951
+Grouped,Growth,EL / Quality low-rank Kalman,2024-04-30,-0.04031965129
+Grouped,Growth,EL / Quality low-rank Kalman,2024-05-31,0.05057970437
+Grouped,Growth,EL / Quality low-rank Kalman,2024-06-28,0.03528469038
+Grouped,Growth,EL / Quality low-rank Kalman,2024-07-31,0.01210907354
+Grouped,Growth,EL / Quality low-rank Kalman,2024-08-30,0.02336558886
+Grouped,Growth,EL / Quality low-rank Kalman,2024-09-30,0.02100918328
+Grouped,Growth,EL / Quality low-rank Kalman,2024-10-31,-0.008923591746
+Grouped,Growth,EL / Quality low-rank Kalman,2024-11-29,0.05963351154
+Grouped,Growth,EL / Quality low-rank Kalman,2024-12-31,-0.02409975857
+Grouped,Growth,EL / Quality low-rank Kalman,2025-01-31,0.02685640186
+Grouped,Growth,EL / Quality low-rank Kalman,2025-02-28,-0.0126948257
+Grouped,Growth,EL / Quality low-rank Kalman,2025-03-31,-0.05572094517
+Grouped,Growth,EL / Quality low-rank Kalman,2025-04-30,-0.008670158566
+Grouped,Growth,EL / Quality low-rank Kalman,2025-05-30,0.06284488044
+Grouped,Growth,EL / Quality low-rank Kalman,2025-06-30,0.0513937553
+Grouped,Growth,EL / Quality low-rank Kalman,2025-07-31,0.02303148013
+Grouped,Growth,EL / Quality low-rank Kalman,2025-08-29,0.02051955449
+Grouped,Growth,EL / Quality low-rank Kalman,2025-09-30,0.03560647421
+Grouped,Growth,EL / Quality low-rank Kalman,2025-10-31,0.0238374013
+Grouped,Growth,EL / Quality low-rank Kalman,2025-11-28,0.001949975076
+Grouped,Growth,EL / Quality low-rank Kalman,2025-12-31,0.0007715410139
+Grouped,Balanced,EquityLab,2023-01-31,0.03871574814
+Grouped,Balanced,EquityLab,2023-02-28,-0.01399796261
+Grouped,Balanced,EquityLab,2023-03-31,0.02427838477
+Grouped,Balanced,EquityLab,2023-04-28,0.01121562659
+Grouped,Balanced,EquityLab,2023-05-31,0.004599517719
+Grouped,Balanced,EquityLab,2023-06-30,0.04135960651
+Grouped,Balanced,EquityLab,2023-07-31,0.02177247419
+Grouped,Balanced,EquityLab,2023-08-31,-0.008161800469
+Grouped,Balanced,EquityLab,2023-09-29,-0.0273069103
+Grouped,Balanced,EquityLab,2023-10-31,-0.01142799191
+Grouped,Balanced,EquityLab,2023-11-30,0.05759693793
+Grouped,Balanced,EquityLab,2023-12-29,0.02956180352
+Grouped,Balanced,EquityLab,2024-01-31,0.01160585959
+Grouped,Balanced,EquityLab,2024-02-29,0.03354247217
+Grouped,Balanced,EquityLab,2024-03-28,0.0215935324
+Grouped,Balanced,EquityLab,2024-04-30,-0.02278706001
+Grouped,Balanced,EquityLab,2024-05-31,0.03268193492
+Grouped,Balanced,EquityLab,2024-06-28,0.02316222313
+Grouped,Balanced,EquityLab,2024-07-31,0.009285018913
+Grouped,Balanced,EquityLab,2024-08-30,0.01596936281
+Grouped,Balanced,EquityLab,2024-09-30,0.01452806567
+Grouped,Balanced,EquityLab,2024-10-31,-0.003945358162
+Grouped,Balanced,EquityLab,2024-11-29,0.03787476706
+Grouped,Balanced,EquityLab,2024-12-31,-0.01320244303
+Grouped,Balanced,EquityLab,2025-01-31,0.01783494184
+Grouped,Balanced,EquityLab,2025-02-28,-0.006506544129
+Grouped,Balanced,EquityLab,2025-03-31,-0.03267465913
+Grouped,Balanced,EquityLab,2025-04-30,-0.003946494459
+Grouped,Balanced,EquityLab,2025-05-30,0.03977681617
+Grouped,Balanced,EquityLab,2025-06-30,0.03283567738
+Grouped,Balanced,EquityLab,2025-07-31,0.0155024504
+Grouped,Balanced,EquityLab,2025-08-29,0.01388068105
+Grouped,Balanced,EquityLab,2025-09-30,0.02319500539
+Grouped,Balanced,EquityLab,2025-10-31,0.01588411298
+Grouped,Balanced,EquityLab,2025-11-28,0.002339293511
+Grouped,Balanced,EquityLab,2025-12-31,0.001823880364
+Grouped,Balanced,EL / Hierarchical state-space,2023-01-31,0.04669706858
+Grouped,Balanced,EL / Hierarchical state-space,2023-02-28,-0.01800983896
+Grouped,Balanced,EL / Hierarchical state-space,2023-03-31,0.02890288643
+Grouped,Balanced,EL / Hierarchical state-space,2023-04-28,0.01292890034
+Grouped,Balanced,EL / Hierarchical state-space,2023-05-31,0.004605509099
+Grouped,Balanced,EL / Hierarchical state-space,2023-06-30,0.04980278245
+Grouped,Balanced,EL / Hierarchical state-space,2023-07-31,0.02571813626
+Grouped,Balanced,EL / Hierarchical state-space,2023-08-31,-0.01107410658
+Grouped,Balanced,EL / Hierarchical state-space,2023-09-29,-0.03453760337
+Grouped,Balanced,EL / Hierarchical state-space,2023-10-31,-0.01512880978
+Grouped,Balanced,EL / Hierarchical state-space,2023-11-30,0.06974514678
+Grouped,Balanced,EL / Hierarchical state-space,2023-12-29,0.03535772482
+Grouped,Balanced,EL / Hierarchical state-space,2024-01-31,0.01316118421
+Grouped,Balanced,EL / Hierarchical state-space,2024-02-29,0.04025408221
+Grouped,Balanced,EL / Hierarchical state-space,2024-03-28,0.02560023831
+Grouped,Balanced,EL / Hierarchical state-space,2024-04-30,-0.02909843899
+Grouped,Balanced,EL / Hierarchical state-space,2024-05-31,0.03912477067
+Grouped,Balanced,EL / Hierarchical state-space,2024-06-28,0.02752606666
+Grouped,Balanced,EL / Hierarchical state-space,2024-07-31,0.01030162158
+Grouped,Balanced,EL / Hierarchical state-space,2024-08-30,0.0186318549
+Grouped,Balanced,EL / Hierarchical state-space,2024-09-30,0.0168611372
+Grouped,Balanced,EL / Hierarchical state-space,2024-10-31,-0.00573742177
+Grouped,Balanced,EL / Hierarchical state-space,2024-11-29,0.04570747589
+Grouped,Balanced,EL / Hierarchical state-space,2024-12-31,-0.01712525667
+Grouped,Balanced,EL / Hierarchical state-space,2025-01-31,0.02108248536
+Grouped,Balanced,EL / Hierarchical state-space,2025-02-28,-0.008734200589
+Grouped,Balanced,EL / Hierarchical state-space,2025-03-31,-0.04097085693
+Grouped,Balanced,EL / Hierarchical state-space,2025-04-30,-0.005646918194
+Grouped,Balanced,EL / Hierarchical state-space,2025-05-30,0.0480808537
+Grouped,Balanced,EL / Hierarchical state-space,2025-06-30,0.03951621085
+Grouped,Balanced,EL / Hierarchical state-space,2025-07-31,0.01821274913
+Grouped,Balanced,EL / Hierarchical state-space,2025-08-29,0.01627054149
+Grouped,Balanced,EL / Hierarchical state-space,2025-09-30,0.02766288365
+Grouped,Balanced,EL / Hierarchical state-space,2025-10-31,0.01874713624
+Grouped,Balanced,EL / Hierarchical state-space,2025-11-28,0.002199146732
+Grouped,Balanced,EL / Hierarchical state-space,2025-12-31,0.001445059438
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-01-31,0.04816451941
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-02-28,-0.01874746519
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-03-31,0.02975315035
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-04-28,0.01324390398
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-05-31,0.004606610678
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-06-30,0.05135515034
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-07-31,0.02644358828
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-08-31,-0.0116095651
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-09-29,-0.03586704337
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-10-31,-0.01580924459
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-11-30,0.07197872446
+Grouped,Balanced,EL / Quality low-rank Kalman,2023-12-29,0.03642336673
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-01-31,0.01344714722
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-02-29,0.04148808325
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-03-28,0.0263369139
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-04-30,-0.03025885329
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-05-31,0.04030935469
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-06-28,0.0283284058
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-07-31,0.01048853481
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-08-30,0.01912138245
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-09-30,0.01729009726
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-10-31,-0.006066911766
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-11-29,0.04714760289
+Grouped,Balanced,EL / Quality low-rank Kalman,2024-12-31,-0.01784650777
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-01-31,0.02167958085
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-02-28,-0.009143778973
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-03-31,-0.04249620133
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-04-30,-0.005959559222
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-05-30,0.04960763951
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-06-30,0.04074449814
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-07-31,0.01871106645
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-08-29,0.0167099428
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-09-30,0.02848435069
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-10-31,0.01927353359
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-11-28,0.002173379253
+Grouped,Balanced,EL / Quality low-rank Kalman,2025-12-31,0.001375409174
+Grouped,Defensive,EquityLab,2023-01-31,0.02018582582
+Grouped,Defensive,EquityLab,2023-02-28,-0.004683744759
+Grouped,Defensive,EquityLab,2023-03-31,0.01354185847
+Grouped,Defensive,EquityLab,2023-04-28,0.007237985336
+Grouped,Defensive,EquityLab,2023-05-31,0.004585607766
+Grouped,Defensive,EquityLab,2023-06-30,0.02175741213
+Grouped,Defensive,EquityLab,2023-07-31,0.01261198348
+Grouped,Defensive,EquityLab,2023-08-31,-0.001400412232
+Grouped,Defensive,EquityLab,2023-09-29,-0.01051969042
+Grouped,Defensive,EquityLab,2023-10-31,-0.002835946497
+Grouped,Defensive,EquityLab,2023-11-30,0.02939291224
+Grouped,Defensive,EquityLab,2023-12-29,0.01610563765
+Grouped,Defensive,EquityLab,2024-01-31,0.007994922696
+Grouped,Defensive,EquityLab,2024-02-29,0.01796038725
+Grouped,Defensive,EquityLab,2024-03-28,0.01229131856
+Grouped,Defensive,EquityLab,2024-04-30,-0.008134176044
+Grouped,Defensive,EquityLab,2024-05-31,0.01772385286
+Grouped,Defensive,EquityLab,2024-06-28,0.01303085673
+Grouped,Defensive,EquityLab,2024-07-31,0.006924811907
+Grouped,Defensive,EquityLab,2024-08-30,0.009787958115
+Grouped,Defensive,EquityLab,2024-09-30,0.00911146394
+Grouped,Defensive,EquityLab,2024-10-31,0.0002152064652
+Grouped,Defensive,EquityLab,2024-11-29,0.01968987053
+Grouped,Defensive,EquityLab,2024-12-31,-0.00409499864
+Grouped,Defensive,EquityLab,2025-01-31,0.01029524593
+Grouped,Defensive,EquityLab,2025-02-28,-0.001334680461
+Grouped,Defensive,EquityLab,2025-03-31,-0.01341369822
+Grouped,Defensive,EquityLab,2025-04-30,1.313426046e-06
+Grouped,Defensive,EquityLab,2025-05-30,0.02049765408
+Grouped,Defensive,EquityLab,2025-06-30,0.01732574174
+Grouped,Defensive,EquityLab,2025-07-31,0.009210054864
+Grouped,Defensive,EquityLab,2025-08-29,0.008332234695
+Grouped,Defensive,EquityLab,2025-09-30,0.01282210559
+Grouped,Defensive,EquityLab,2025-10-31,0.009237142821
+Grouped,Defensive,EquityLab,2025-11-28,0.002664666854
+Grouped,Defensive,EquityLab,2025-12-31,0.002703374224
+Grouped,Defensive,EL / Hierarchical state-space,2023-01-31,0.02273493637
+Grouped,Defensive,EL / Hierarchical state-space,2023-02-28,-0.005965076144
+Grouped,Defensive,EL / Hierarchical state-space,2023-03-31,0.01501885293
+Grouped,Defensive,EL / Hierarchical state-space,2023-04-28,0.007785178526
+Grouped,Defensive,EL / Hierarchical state-space,2023-05-31,0.00458752132
+Grouped,Defensive,EL / Hierarchical state-space,2023-06-30,0.02445403221
+Grouped,Defensive,EL / Hierarchical state-space,2023-07-31,0.01387216705
+Grouped,Defensive,EL / Hierarchical state-space,2023-08-31,-0.002330557854
+Grouped,Defensive,EL / Hierarchical state-space,2023-09-29,-0.01282906219
+Grouped,Defensive,EL / Hierarchical state-space,2023-10-31,-0.004017930602
+Grouped,Defensive,EL / Hierarchical state-space,2023-11-30,0.03327286264
+Grouped,Defensive,EL / Hierarchical state-space,2023-12-29,0.01795676546
+Grouped,Defensive,EL / Hierarchical state-space,2024-01-31,0.008491669373
+Grouped,Defensive,EL / Hierarchical state-space,2024-02-29,0.02010397191
+Grouped,Defensive,EL / Hierarchical state-space,2024-03-28,0.01357099858
+Grouped,Defensive,EL / Hierarchical state-space,2024-04-30,-0.01014993307
+Grouped,Defensive,EL / Hierarchical state-space,2024-05-31,0.01978159515
+Grouped,Defensive,EL / Hierarchical state-space,2024-06-28,0.014424601
+Grouped,Defensive,EL / Hierarchical state-space,2024-07-31,0.007249499107
+Grouped,Defensive,EL / Hierarchical state-space,2024-08-30,0.01063831699
+Grouped,Defensive,EL / Hierarchical state-space,2024-09-30,0.009856610974
+Grouped,Defensive,EL / Hierarchical state-space,2024-10-31,-0.0003571509911
+Grouped,Defensive,EL / Hierarchical state-space,2024-11-29,0.02219151684
+Grouped,Defensive,EL / Hierarchical state-space,2024-12-31,-0.005347884768
+Grouped,Defensive,EL / Hierarchical state-space,2025-01-31,0.0113324612
+Grouped,Defensive,EL / Hierarchical state-space,2025-02-28,-0.002046159551
+Grouped,Defensive,EL / Hierarchical state-space,2025-03-31,-0.01606337574
+Grouped,Defensive,EL / Hierarchical state-space,2025-04-30,-0.0005417756692
+Grouped,Defensive,EL / Hierarchical state-space,2025-05-30,0.02314983549
+Grouped,Defensive,EL / Hierarchical state-space,2025-06-30,0.01945940101
+Grouped,Defensive,EL / Hierarchical state-space,2025-07-31,0.01007568245
+Grouped,Defensive,EL / Hierarchical state-space,2025-08-29,0.009095519231
+Grouped,Defensive,EL / Hierarchical state-space,2025-09-30,0.01424907694
+Grouped,Defensive,EL / Hierarchical state-space,2025-10-31,0.01015154826
+Grouped,Defensive,EL / Hierarchical state-space,2025-11-28,0.002619906136
+Grouped,Defensive,EL / Hierarchical state-space,2025-12-31,0.002582384668
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-01-31,0.02290914605
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-02-28,-0.006052644072
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-03-31,0.01511979273
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-04-28,0.007822574453
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-05-31,0.004587652095
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-06-30,0.02463832289
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-07-31,0.0139582897
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-08-31,-0.00239412527
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-09-29,-0.01298688779
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-10-31,-0.004098709002
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-11-30,0.03353802373
+Grouped,Defensive,EL / Quality low-rank Kalman,2023-12-29,0.01808327405
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-01-31,0.008525617716
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-02-29,0.02025046739
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-03-28,0.01365845365
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-04-30,-0.01028769265
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-05-31,0.01992222406
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-06-28,0.01451985138
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-07-31,0.007271688671
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-08-30,0.01069643167
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-09-30,0.009907535335
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-10-31,-0.0003962666774
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-11-29,0.02236248275
+Grouped,Defensive,EL / Quality low-rank Kalman,2024-12-31,-0.005433508709
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-01-31,0.0114033459
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-02-28,-0.002094782998
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-03-31,-0.01624445831
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-04-30,-0.0005788911159
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-05-30,0.02333108917
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-06-30,0.01960521819
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-07-31,0.01013484061
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-08-29,0.009147683134
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-09-30,0.01434659811
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-10-31,0.01021403997
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-11-28,0.002616847128
+Grouped,Defensive,EL / Quality low-rank Kalman,2025-12-31,0.002574116077
+Hierarchical,Growth,EquityLab,2023-01-31,0.06088732578
+Hierarchical,Growth,EquityLab,2023-02-28,-0.02514268845
+Hierarchical,Growth,EquityLab,2023-03-31,0.037124943
+Hierarchical,Growth,EquityLab,2023-04-28,0.01597498718
+Hierarchical,Growth,EquityLab,2023-05-31,0.004616161373
+Hierarchical,Growth,EquityLab,2023-06-30,0.06481418806
+Hierarchical,Growth,EquityLab,2023-07-31,0.03273326114
+Hierarchical,Growth,EquityLab,2023-08-31,-0.01625199327
+Hierarchical,Growth,EquityLab,2023-09-29,-0.04739329503
+Hierarchical,Growth,EquityLab,2023-10-31,-0.02170861795
+Hierarchical,Growth,EquityLab,2023-11-30,0.09134385462
+Hierarchical,Growth,EquityLab,2023-12-29,0.04566248764
+Hierarchical,Growth,EquityLab,2024-01-31,0.015926448
+Hierarchical,Growth,EquityLab,2024-02-29,0.05218687873
+Hierarchical,Growth,EquityLab,2024-03-28,0.0327238951
+Hierarchical,Growth,EquityLab,2024-04-30,-0.04031965129
+Hierarchical,Growth,EquityLab,2024-05-31,0.05057970437
+Hierarchical,Growth,EquityLab,2024-06-28,0.03528469038
+Hierarchical,Growth,EquityLab,2024-07-31,0.01210907354
+Hierarchical,Growth,EquityLab,2024-08-30,0.02336558886
+Hierarchical,Growth,EquityLab,2024-09-30,0.02100918328
+Hierarchical,Growth,EquityLab,2024-10-31,-0.008923591746
+Hierarchical,Growth,EquityLab,2024-11-29,0.05963351154
+Hierarchical,Growth,EquityLab,2024-12-31,-0.02409975857
+Hierarchical,Growth,EquityLab,2025-01-31,0.02685640186
+Hierarchical,Growth,EquityLab,2025-02-28,-0.0126948257
+Hierarchical,Growth,EquityLab,2025-03-31,-0.05572094517
+Hierarchical,Growth,EquityLab,2025-04-30,-0.008670158566
+Hierarchical,Growth,EquityLab,2025-05-30,0.06284488044
+Hierarchical,Growth,EquityLab,2025-06-30,0.0513937553
+Hierarchical,Growth,EquityLab,2025-07-31,0.02303148013
+Hierarchical,Growth,EquityLab,2025-08-29,0.02051955449
+Hierarchical,Growth,EquityLab,2025-09-30,0.03560647421
+Hierarchical,Growth,EquityLab,2025-10-31,0.0238374013
+Hierarchical,Growth,EquityLab,2025-11-28,0.001949975076
+Hierarchical,Growth,EquityLab,2025-12-31,0.0007715410139
+Hierarchical,Growth,EL / Hierarchical state-space,2023-01-31,0.06088732578
+Hierarchical,Growth,EL / Hierarchical state-space,2023-02-28,-0.02514268845
+Hierarchical,Growth,EL / Hierarchical state-space,2023-03-31,0.037124943
+Hierarchical,Growth,EL / Hierarchical state-space,2023-04-28,0.01597498718
+Hierarchical,Growth,EL / Hierarchical state-space,2023-05-31,0.004616161373
+Hierarchical,Growth,EL / Hierarchical state-space,2023-06-30,0.06481418806
+Hierarchical,Growth,EL / Hierarchical state-space,2023-07-31,0.03273326114
+Hierarchical,Growth,EL / Hierarchical state-space,2023-08-31,-0.01625199327
+Hierarchical,Growth,EL / Hierarchical state-space,2023-09-29,-0.04739329503
+Hierarchical,Growth,EL / Hierarchical state-space,2023-10-31,-0.02170861795
+Hierarchical,Growth,EL / Hierarchical state-space,2023-11-30,0.09134385462
+Hierarchical,Growth,EL / Hierarchical state-space,2023-12-29,0.04566248764
+Hierarchical,Growth,EL / Hierarchical state-space,2024-01-31,0.015926448
+Hierarchical,Growth,EL / Hierarchical state-space,2024-02-29,0.05218687873
+Hierarchical,Growth,EL / Hierarchical state-space,2024-03-28,0.0327238951
+Hierarchical,Growth,EL / Hierarchical state-space,2024-04-30,-0.04031965129
+Hierarchical,Growth,EL / Hierarchical state-space,2024-05-31,0.05057970437
+Hierarchical,Growth,EL / Hierarchical state-space,2024-06-28,0.03528469038
+Hierarchical,Growth,EL / Hierarchical state-space,2024-07-31,0.01210907354
+Hierarchical,Growth,EL / Hierarchical state-space,2024-08-30,0.02336558886
+Hierarchical,Growth,EL / Hierarchical state-space,2024-09-30,0.02100918328
+Hierarchical,Growth,EL / Hierarchical state-space,2024-10-31,-0.008923591746
+Hierarchical,Growth,EL / Hierarchical state-space,2024-11-29,0.05963351154
+Hierarchical,Growth,EL / Hierarchical state-space,2024-12-31,-0.02409975857
+Hierarchical,Growth,EL / Hierarchical state-space,2025-01-31,0.02685640186
+Hierarchical,Growth,EL / Hierarchical state-space,2025-02-28,-0.0126948257
+Hierarchical,Growth,EL / Hierarchical state-space,2025-03-31,-0.05572094517
+Hierarchical,Growth,EL / Hierarchical state-space,2025-04-30,-0.008670158566
+Hierarchical,Growth,EL / Hierarchical state-space,2025-05-30,0.06284488044
+Hierarchical,Growth,EL / Hierarchical state-space,2025-06-30,0.0513937553
+Hierarchical,Growth,EL / Hierarchical state-space,2025-07-31,0.02303148013
+Hierarchical,Growth,EL / Hierarchical state-space,2025-08-29,0.02051955449
+Hierarchical,Growth,EL / Hierarchical state-space,2025-09-30,0.03560647421
+Hierarchical,Growth,EL / Hierarchical state-space,2025-10-31,0.0238374013
+Hierarchical,Growth,EL / Hierarchical state-space,2025-11-28,0.001949975076
+Hierarchical,Growth,EL / Hierarchical state-space,2025-12-31,0.0007715410139
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-01-31,0.06088732578
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-02-28,-0.02514268845
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-03-31,0.037124943
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-04-28,0.01597498718
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-05-31,0.004616161373
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-06-30,0.06481418806
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-07-31,0.03273326114
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-08-31,-0.01625199327
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-09-29,-0.04739329503
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-10-31,-0.02170861795
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-11-30,0.09134385462
+Hierarchical,Growth,EL / Quality low-rank Kalman,2023-12-29,0.04566248764
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-01-31,0.015926448
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-02-29,0.05218687873
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-03-28,0.0327238951
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-04-30,-0.04031965129
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-05-31,0.05057970437
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-06-28,0.03528469038
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-07-31,0.01210907354
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-08-30,0.02336558886
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-09-30,0.02100918328
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-10-31,-0.008923591746
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-11-29,0.05963351154
+Hierarchical,Growth,EL / Quality low-rank Kalman,2024-12-31,-0.02409975857
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-01-31,0.02685640186
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-02-28,-0.0126948257
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-03-31,-0.05572094517
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-04-30,-0.008670158566
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-05-30,0.06284488044
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-06-30,0.0513937553
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-07-31,0.02303148013
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-08-29,0.02051955449
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-09-30,0.03560647421
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-10-31,0.0238374013
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-11-28,0.001949975076
+Hierarchical,Growth,EL / Quality low-rank Kalman,2025-12-31,0.0007715410139
+Hierarchical,Balanced,EquityLab,2023-01-31,0.03342258194
+Hierarchical,Balanced,EquityLab,2023-02-28,-0.01133730908
+Hierarchical,Balanced,EquityLab,2023-03-31,0.02121144163
+Hierarchical,Balanced,EquityLab,2023-04-28,0.01007939321
+Hierarchical,Balanced,EquityLab,2023-05-31,0.00459554427
+Hierarchical,Balanced,EquityLab,2023-06-30,0.03576014036
+Hierarchical,Balanced,EquityLab,2023-07-31,0.0191557336
+Hierarchical,Balanced,EquityLab,2023-08-31,-0.006230375659
+Hierarchical,Balanced,EquityLab,2023-09-29,-0.02251155588
+Hierarchical,Balanced,EquityLab,2023-10-31,-0.008973630603
+Hierarchical,Balanced,EquityLab,2023-11-30,0.04954031508
+Hierarchical,Balanced,EquityLab,2023-12-29,0.02571798155
+Hierarchical,Balanced,EquityLab,2024-01-31,0.01057437717
+Hierarchical,Balanced,EquityLab,2024-02-29,0.02909137066
+Hierarchical,Balanced,EquityLab,2024-03-28,0.01893630788
+Hierarchical,Balanced,EquityLab,2024-04-30,-0.01860138946
+Hierarchical,Balanced,EquityLab,2024-05-31,0.02840908299
+Hierarchical,Balanced,EquityLab,2024-06-28,0.02026814698
+Hierarchical,Balanced,EquityLab,2024-07-31,0.008610813823
+Hierarchical,Balanced,EquityLab,2024-08-30,0.01420361324
+Hierarchical,Balanced,EquityLab,2024-09-30,0.01298078594
+Hierarchical,Balanced,EquityLab,2024-10-31,-0.002756871794
+Hierarchical,Balanced,EquityLab,2024-11-29,0.03268015922
+Hierarchical,Balanced,EquityLab,2024-12-31,-0.0106008554
+Hierarchical,Balanced,EquityLab,2025-01-31,0.0156811895
+Hierarchical,Balanced,EquityLab,2025-02-28,-0.005029175066
+Hierarchical,Balanced,EquityLab,2025-03-31,-0.02717266805
+Hierarchical,Balanced,EquityLab,2025-04-30,-0.002818783133
+Hierarchical,Balanced,EquityLab,2025-05-30,0.03426962583
+Hierarchical,Balanced,EquityLab,2025-06-30,0.02840518568
+Hierarchical,Balanced,EquityLab,2025-07-31,0.01370499573
+Hierarchical,Balanced,EquityLab,2025-08-29,0.01229573924
+Hierarchical,Balanced,EquityLab,2025-09-30,0.020231934
+Hierarchical,Balanced,EquityLab,2025-10-31,0.01398537227
+Hierarchical,Balanced,EquityLab,2025-11-28,0.002432238055
+Hierarchical,Balanced,EquityLab,2025-12-31,0.002075112241
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-01-31,0.03797412862
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-02-28,-0.01362518146
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-03-31,0.02384867883
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-04-28,0.01105643022
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-05-31,0.004598961004
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-06-30,0.04057507164
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-07-31,0.02140584563
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-08-31,-0.007891190725
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-09-29,-0.02663503862
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-10-31,-0.01108411413
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-11-30,0.05646813362
+Hierarchical,Balanced,EL / Hierarchical state-space,2023-12-29,0.02902324997
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-01-31,0.01146133975
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-02-29,0.03291883337
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-03-28,0.02122123168
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-04-30,-0.02220061045
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-05-31,0.03208327047
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-06-28,0.02275673739
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-07-31,0.009190556801
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-08-30,0.01572196564
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-09-30,0.01431127806
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-10-31,-0.003778840682
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-11-29,0.03714695644
+Hierarchical,Balanced,EL / Hierarchical state-space,2024-12-31,-0.01283793754
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-01-31,0.01753318204
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-02-28,-0.006299551622
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-03-31,-0.03190378139
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-04-30,-0.003788492101
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-05-30,0.03900520997
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-06-30,0.03221492621
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-07-31,0.01525061106
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-08-29,0.01365861665
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-09-30,0.02277985281
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-10-31,0.01561808257
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-11-28,0.002352315865
+Hierarchical,Balanced,EL / Hierarchical state-space,2025-12-31,0.001859080178
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-01-31,0.04567731991
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-02-28,-0.01749725391
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-03-31,0.02831202813
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-04-28,0.01271000064
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-05-31,0.004604743598
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-06-30,0.04872402393
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-07-31,0.0252140112
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-08-31,-0.01070201022
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-09-29,-0.03361376005
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-10-31,-0.01465596771
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-11-30,0.06819300764
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2023-12-29,0.03461719785
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-01-31,0.01296246518
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-02-29,0.03939656051
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-03-28,0.02508831387
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-04-30,-0.02829205359
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-05-31,0.03830158944
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-06-28,0.02696851184
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-07-31,0.01017173339
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-08-30,0.01829167651
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-09-30,0.01656304785
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-10-31,-0.005508455336
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-11-29,0.04470671487
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2024-12-31,-0.01662405089
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-01-31,0.02066755675
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-02-28,-0.008449579801
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-03-31,-0.03991087735
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-04-30,-0.005429660303
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-05-30,0.04701987246
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-06-30,0.03866265972
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-07-31,0.01786646263
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-08-29,0.0159651964
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-09-30,0.02709203664
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-10-31,0.0183813366
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-11-28,0.002217052853
+Hierarchical,Balanced,EL / Quality low-rank Kalman,2025-12-31,0.001493460218
+Hierarchical,Defensive,EquityLab,2023-01-31,0.02062313107
+Hierarchical,Defensive,EquityLab,2023-02-28,-0.004903559839
+Hierarchical,Defensive,EquityLab,2023-03-31,0.01379523996
+Hierarchical,Defensive,EquityLab,2023-04-28,0.007331857473
+Hierarchical,Defensive,EquityLab,2023-05-31,0.00458593604
+Hierarchical,Defensive,EquityLab,2023-06-30,0.02222002295
+Hierarchical,Defensive,EquityLab,2023-07-31,0.01282817061
+Hierarchical,Defensive,EquityLab,2023-08-31,-0.00155998066
+Hierarchical,Defensive,EquityLab,2023-09-29,-0.01091586798
+Hierarchical,Defensive,EquityLab,2023-10-31,-0.003038718343
+Hierarchical,Defensive,EquityLab,2023-11-30,0.03005852585
+Hierarchical,Defensive,EquityLab,2023-12-29,0.0164232025
+Hierarchical,Defensive,EquityLab,2024-01-31,0.008080140628
+Hierarchical,Defensive,EquityLab,2024-02-29,0.01832812369
+Hierarchical,Defensive,EquityLab,2024-03-28,0.01251085034
+Hierarchical,Defensive,EquityLab,2024-04-30,-0.00847998338
+Hierarchical,Defensive,EquityLab,2024-05-31,0.01807686285
+Hierarchical,Defensive,EquityLab,2024-06-28,0.01326995648
+Hierarchical,Defensive,EquityLab,2024-07-31,0.006980512676
+Hierarchical,Defensive,EquityLab,2024-08-30,0.00993383896
+Hierarchical,Defensive,EquityLab,2024-09-30,0.009239295473
+Hierarchical,Defensive,EquityLab,2024-10-31,0.000117017346
+Hierarchical,Defensive,EquityLab,2024-11-29,0.02011903319
+Hierarchical,Defensive,EquityLab,2024-12-31,-0.004309933877
+Hierarchical,Defensive,EquityLab,2025-01-31,0.01047318238
+Hierarchical,Defensive,EquityLab,2025-02-28,-0.001456736187
+Hierarchical,Defensive,EquityLab,2025-03-31,-0.01386825594
+Hierarchical,Defensive,EquityLab,2025-04-30,-9.185464457e-05
+Hierarchical,Defensive,EquityLab,2025-05-30,0.02095264135
+Hierarchical,Defensive,EquityLab,2025-06-30,0.01769177545
+Hierarchical,Defensive,EquityLab,2025-07-31,0.009358555087
+Hierarchical,Defensive,EquityLab,2025-08-29,0.008463177754
+Hierarchical,Defensive,EquityLab,2025-09-30,0.01306690551
+Hierarchical,Defensive,EquityLab,2025-10-31,0.009394010988
+Hierarchical,Defensive,EquityLab,2025-11-28,0.00265698806
+Hierarchical,Defensive,EquityLab,2025-12-31,0.002682618213
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-01-31,0.02312278794
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-02-28,-0.006160032923
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-03-31,0.01524358018
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-04-28,0.007868434914
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-05-31,0.00458781247
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-06-30,0.0248643276
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-07-31,0.01406390615
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-08-31,-0.002472081113
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-09-29,-0.01318043708
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-10-31,-0.004197771521
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-11-30,0.03386320378
+Hierarchical,Defensive,EL / Hierarchical state-space,2023-12-29,0.01823841774
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-01-31,0.008567250237
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-02-29,0.02043012201
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-03-28,0.0137657041
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-04-30,-0.01045663398
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-05-31,0.02009468419
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-06-28,0.01463666159
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-07-31,0.007298900824
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-08-30,0.01076770056
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-09-30,0.009969986379
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-10-31,-0.0004442361646
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-11-29,0.02257214663
+Hierarchical,Defensive,EL / Hierarchical state-space,2024-12-31,-0.005538513552
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-01-31,0.01149027529
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-02-28,-0.00215441232
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-03-31,-0.01646652875
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-04-30,-0.0006244076111
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-05-30,0.02355336946
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-06-30,0.01978404095
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-07-31,0.01020738918
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-08-29,0.009211654289
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-09-30,0.0144661931
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-10-31,0.01029067663
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-11-28,0.002613095716
+Hierarchical,Defensive,EL / Hierarchical state-space,2025-12-31,0.002563975898
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-01-31,0.02416436789
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-02-28,-0.006683591653
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-03-31,0.01584708787
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-04-28,0.008092020924
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-05-31,0.004588594359
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-06-30,0.02596618072
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-07-31,0.01457882377
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-08-31,-0.002852143497
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-09-29,-0.0141240585
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-10-31,-0.004680736431
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-11-30,0.03544857189
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2023-12-29,0.01899479828
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-01-31,0.008770223537
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-02-29,0.02130600195
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-03-28,0.01428858808
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-04-30,-0.01128028288
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-05-31,0.02093548849
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-06-28,0.01520615282
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-07-31,0.007431569718
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-08-30,0.01111516166
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-09-30,0.01027445737
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-10-31,-0.0006781044257
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-11-29,0.02359433245
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2024-12-31,-0.006050449401
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-01-31,0.0119140869
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-02-28,-0.002445126411
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-03-31,-0.01754920089
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-04-30,-0.0008463166662
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-05-30,0.02463706471
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-06-30,0.02065586533
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-07-31,0.01056108915
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-08-29,0.009523536358
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-09-30,0.01504926108
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-10-31,0.01066430749
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-11-28,0.002594806252
+Hierarchical,Defensive,EL / Quality low-rank Kalman,2025-12-31,0.002514538931

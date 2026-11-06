@@ -1,0 +1,6 @@
+hypothesis,comparison,selected_release_headline,full_internal_headline
+H1,Conventional MPT (plain sample-mean),6/6 selected wins,9/9 in the full internal study
+H1,Conventional MPT (corrected),6/6 selected wins,9/9 in the full internal study
+H2,Exact ex-ante risk-matched MPT,5/6 selected wins,8/9 in the full internal study
+H2,Realised excess-return Sharpe vs exact-risk MPT,5/6 selected wins,8/9 in the full internal study
+H3,EquityLab information inside common MPT-style optimiser,4/6 selected wins,6/9 in the full internal study

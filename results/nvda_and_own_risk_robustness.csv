@@ -1,0 +1,25 @@
+universe,representation,mandate,model,ending_wealth,control_wealth,fair_passive_wealth,mpt_historical_mean_wealth,mpt_shrinkage_wealth,own_risk_mpt_complete,own_risk_mpt_wealth,model_sharpe,own_risk_mpt_sharpe,paired_hac_t
+with_nvda,Grouped,Growth,EL / Hierarchical state-space,21174.98,17020.41,18516.05,11544.53,11568.39,True,20255.51,1.496,1.586,0.438
+with_nvda,Grouped,Growth,EL / Quality low-rank Kalman,20208.55,17020.41,18516.05,11544.53,11568.39,False,,,,
+with_nvda,Grouped,Balanced,EL / Hierarchical state-space,14405.03,13542.12,17111.2,12357.67,11602.4,True,13645.67,0.87,0.723,0.738
+with_nvda,Grouped,Balanced,EL / Quality low-rank Kalman,14154.8,13542.12,17111.2,12357.67,11602.4,True,13406.11,0.782,0.603,0.687
+with_nvda,Grouped,Defensive,EL / Hierarchical state-space,12905.27,13022.23,13351.49,12497.0,11657.17,True,12855.67,0.957,1.043,0.099
+with_nvda,Grouped,Defensive,EL / Quality low-rank Kalman,12931.66,13022.23,13351.49,12497.0,11657.17,True,13093.44,0.969,1.235,-0.286
+with_nvda,Hierarchical,Growth,EL / Hierarchical state-space,15968.01,17508.68,18516.05,11544.53,11568.39,False,,,,
+with_nvda,Hierarchical,Growth,EL / Quality low-rank Kalman,15319.22,17508.68,18516.05,11544.53,11568.39,False,,,,
+with_nvda,Hierarchical,Balanced,EL / Hierarchical state-space,14685.35,13748.93,17111.2,12357.67,11602.4,True,13520.88,1.166,0.779,0.954
+with_nvda,Hierarchical,Balanced,EL / Quality low-rank Kalman,14519.6,13748.93,17111.2,12357.67,11602.4,True,13555.81,0.921,0.816,0.77
+with_nvda,Hierarchical,Defensive,EL / Hierarchical state-space,13716.68,14020.58,13351.49,12497.0,11657.17,True,13162.05,1.459,1.439,1.315
+with_nvda,Hierarchical,Defensive,EL / Quality low-rank Kalman,13552.0,14020.58,13351.49,12497.0,11657.17,True,13091.15,1.292,1.351,0.942
+without_nvda,Grouped,Growth,EL / Hierarchical state-space,14784.34,15403.2,18516.05,11366.69,11586.79,False,,,,
+without_nvda,Grouped,Growth,EL / Quality low-rank Kalman,14570.2,15403.2,18516.05,11366.69,11586.79,True,12737.4,0.611,0.333,0.966
+without_nvda,Grouped,Balanced,EL / Hierarchical state-space,14013.71,14665.8,17111.2,11693.84,11617.88,True,12923.07,0.709,0.484,0.935
+without_nvda,Grouped,Balanced,EL / Quality low-rank Kalman,14843.53,14665.8,17111.2,11693.84,11617.88,True,13019.69,0.887,0.484,1.63
+without_nvda,Grouped,Defensive,EL / Hierarchical state-space,12851.14,13400.61,13351.49,11755.1,11523.2,True,12196.71,0.936,0.552,1.406
+without_nvda,Grouped,Defensive,EL / Quality low-rank Kalman,12688.14,13400.61,13351.49,11755.1,11523.2,True,12180.68,0.798,0.514,1.033
+without_nvda,Hierarchical,Growth,EL / Hierarchical state-space,14569.94,14846.72,18516.05,11366.69,11586.79,True,12436.01,0.597,0.276,1.204
+without_nvda,Hierarchical,Growth,EL / Quality low-rank Kalman,16755.03,14846.72,18516.05,11366.69,11586.79,True,12866.4,0.911,0.363,1.957
+without_nvda,Hierarchical,Balanced,EL / Hierarchical state-space,13595.06,13274.42,17111.2,11693.84,11617.88,True,12696.71,0.667,0.428,0.574
+without_nvda,Hierarchical,Balanced,EL / Quality low-rank Kalman,13512.73,13274.42,17111.2,11693.84,11617.88,True,13008.74,0.613,0.555,0.356
+without_nvda,Hierarchical,Defensive,EL / Hierarchical state-space,12942.48,13383.29,13351.49,11755.1,11523.2,True,12158.33,0.973,0.556,1.201
+without_nvda,Hierarchical,Defensive,EL / Quality low-rank Kalman,12800.58,13383.29,13351.49,11755.1,11523.2,True,11969.85,0.869,0.399,1.21
