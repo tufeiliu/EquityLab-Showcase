@@ -28,3 +28,8 @@ analysis/create_private_classification_template.py
 analysis/build_public_release.py
 results/local_export_provenance.json
 results/asset_disclosure_provenance.json
+INSTALL_HYPOTHESIS_PATCH.md
+analysis/export_h3_monthly.py
+analysis/run_hypothesis_tests.sh
+tests/test_export_h3_monthly.py
+results/h3_local_export_provenance.json

@@ -33,7 +33,7 @@ For example, "12 of 12" against MPT / Historical mean means both models finished
 | Dynamic models against | Higher ending wealth | Higher Sharpe | Monthly gap clearly above zero |
 |---|---:|---:|---:|
 | MPT / Historical mean | **12 of 12** | **8 of 12** | 3 of 12 |
-| MPT / Shrinkage | **12 of 12** | **12 of 12** | 7 of 12 |
+| MPT / Shrinkage | **12 of 12** | **12 of 12** | 6 of 12 |
 | MPT matched to the control's estimated risk† | **10 of 12** | **10 of 12** | 1 of 12 |
 | MPT matched to each model's own estimated risk | **8 of 9** | **5 of 9** | 0 of 9 |
 
@@ -63,7 +63,7 @@ The whole pipeline was rerun without NVDA, using the same code on the other 43 i
 | Fair passive benchmark | 4 of 12 | **0 of 12** |
 | Historical-mean control | 6 of 12 | **4 of 12** |
 
-- **Against MPT, the result holds up.** Without NVDA the models also had the higher Sharpe in 11 of 11 own-risk comparisons, although no gap is clearly above zero (largest t = 1.96).
+- **Against MPT, the result holds up.** Without NVDA the models also had the higher Sharpe in 11 of 11 own-risk comparisons, although no gap is clearly above zero (largest t = 1.93).
 - **The Growth headline does not.** Grouped Growth state-space falls from 21,175 to 14,784, well below SPY's 18,516.
 
 All of this depends on a small, fixed [asset universe](#asset-universe), which may flatter any strategy allowed to hold its strongest names.
@@ -128,7 +128,7 @@ The [notebook](notebooks/01_public_readout.ipynb) recomputes these tables from t
 | Hierarchical / Balanced | **14,685** | **14,520** | 12,358 | 11,602 | 12,630 |
 | Hierarchical / Defensive | **13,717** | **13,552** | 12,497 | 11,657 | 12,802 |
 
-- **Conventional MPT:** both dynamic models finished ahead in all six configurations. The monthly gap is clearly above zero in 10 of those 24 comparisons, most often against MPT / Shrinkage.
+- **Conventional MPT:** both dynamic models finished ahead in all six configurations. The monthly gap is clearly above zero in 9 of those 24 comparisons, most often against MPT / Shrinkage.
 - **Risk:** MPT held less equity and was less volatile, so part of this gap is risk taken rather than skill. In Growth, the dynamic models ran about 14% volatility against about 7% for conventional MPT.
 - **Defensive:** MPT / Historical mean kept a higher Sharpe (1.55) than all four dynamic results, although it ended with less wealth.
 - **Risk-matched MPT†:** the models finished ahead in 10 of 12 comparisons, losing both in Hierarchical Growth. This target comes from the control, not the dynamic portfolios.
@@ -241,7 +241,7 @@ Each chart shows both dynamic candidates, the historical-mean control and the be
 
 *Dynamic model minus the historical-mean control, within the same representation and mandate.*
 
-Not consistently. The dynamic models finished ahead in 6 of 12 comparisons, including both Balanced configurations and Grouped Growth, and behind in both Defensive configurations and Hierarchical Growth. Only one monthly return difference has a HAC t-statistic above 1.96: state-space in Grouped Growth (t = 2.05), which is also the highlighted result.
+Not consistently. The dynamic models finished ahead in 6 of 12 comparisons, including both Balanced configurations and Grouped Growth, and behind in both Defensive configurations and Hierarchical Growth. Only one monthly return difference has a HAC t-statistic above 1.96: state-space in Grouped Growth (t = 2.03), which is also the highlighted result.
 
 ### Market exposure
 
@@ -346,6 +346,19 @@ Constraining MPT to the control's estimated volatility at each decision narrows 
 
 This separate 27-month experiment gives one MPT optimiser either conventional return inputs or EquityLab-derived information. EquityLab information improved ending wealth in 4 of 6 configurations and hurt in both Balanced configurations. It does not test the complete EquityLab strategy.
 
+### Formal hypothesis tests
+
+[The test report](results/statistical_testing/hypothesis_testing_report.md) runs paired one-sided tests on the dated monthly net returns, with Newey–West errors, block-bootstrap intervals and a Holm correction within each family:
+
+| Family | Tests | p < 0.05 | After Holm correction |
+|---|---:|---:|---:|
+| H1: dynamic models vs MPT matched to their own risk | 9 | 0 | 0 |
+| H1: dynamic models vs conventional MPT | 24 | 13 | 4 |
+| H2: dynamic models vs the historical-mean control | 12 | 1 | 0 |
+| H3: EquityLab information inside MPT | 6 | 1 | 1 |
+
+The direct H1 test finds no significant gap. That is inconclusive rather than negative: a paired t-statistic grows roughly as the annual information ratio × √years, so over three years only a ratio near 1.1 would clear 1.96. Good active strategies typically run at 0.3–0.7, and a ratio of 0.5 would need about 15 years. The four conventional-MPT results that survive correction are Grouped Growth (state-space vs both MPT variants) and Hierarchical Defensive (both models vs MPT / Shrinkage), and conventional MPT took less risk in those comparisons. A one-sided p below 0.05 means t above 1.645, a lower bar than the t above 1.96 used for "clearly above zero" elsewhere in this README, which is why 13 here and 9 above differ. The models were chosen after seeing these results, so all p-values are exploratory. [The method note](docs/STATISTICAL_HYPOTHESIS_TESTING.md) gives the definitions.
+
 ### Portfolio breadth
 
 These charts cover the **hierarchical state-space** portfolios. They count positions of at least 0.5% and show monthly additions and removals.
@@ -410,6 +423,7 @@ The tables and figures can be rebuilt from the released CSVs. The private strate
 ```bash
 python -m pip install -r requirements.txt
 python analysis/generate_public_figures.py
+python analysis/research_hypothesis_inference.py
 python -m unittest discover -s tests
 ```
 

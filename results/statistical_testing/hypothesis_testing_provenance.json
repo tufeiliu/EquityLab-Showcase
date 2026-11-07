@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "monthly": "results/selected_monthly_net_wealth.csv",
+    "own_risk": "results/nvda_and_own_risk_robustness.csv",
+    "h3_monthly": "results/h3_paired_monthly_net_returns.csv"
+  },
+  "bootstrap_draws": 3000,
+  "bootstrap_block_months": 3,
+  "hac_lags": 3,
+  "seed": 20261107,
+  "confirmatory": false,
+  "notes": [
+    "H1 own-risk MPT: monthly own-risk MPT returns are not released, so this family uses the released paired t-statistics (rescaled by sqrt(35/36) to match the small-sample correction) and has no bootstrap intervals. Incomplete solver paths are excluded.",
+    "H3 covers a separate 27-month window (Oct 2023 to Dec 2025); its effect sizes are not comparable with the 36-month H1 and H2 estimates."
+  ]
+}

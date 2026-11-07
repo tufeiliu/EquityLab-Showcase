@@ -1,0 +1,487 @@
+representation,mandate,period_end,strategy,net_return
+Grouped,Balanced,2023-10-31,Conventional MPT,0.001551090979
+Grouped,Balanced,2023-10-31,Hybrid MPT,-0.005983884525
+Grouped,Balanced,2023-10-31,T-bills,0.004751838661
+Grouped,Balanced,2023-11-30,Conventional MPT,0.01152084897
+Grouped,Balanced,2023-11-30,Hybrid MPT,0.01033052925
+Grouped,Balanced,2023-11-30,T-bills,0.004485445258
+Grouped,Balanced,2023-12-29,Conventional MPT,-0.001339089223
+Grouped,Balanced,2023-12-29,Hybrid MPT,0.005056225853
+Grouped,Balanced,2023-12-29,T-bills,0.004222262887
+Grouped,Balanced,2024-01-31,Conventional MPT,0.003727207045
+Grouped,Balanced,2024-01-31,Hybrid MPT,0.002088755298
+Grouped,Balanced,2024-01-31,T-bills,0.004806041348
+Grouped,Balanced,2024-02-29,Conventional MPT,0.005866053164
+Grouped,Balanced,2024-02-29,Hybrid MPT,0.006549454132
+Grouped,Balanced,2024-02-29,T-bills,0.0041995763
+Grouped,Balanced,2024-03-28,Conventional MPT,0.0136585863
+Grouped,Balanced,2024-03-28,Hybrid MPT,0.01599712733
+Grouped,Balanced,2024-03-28,T-bills,0.004076371275
+Grouped,Balanced,2024-04-30,Conventional MPT,-0.001101815772
+Grouped,Balanced,2024-04-30,Hybrid MPT,-0.001194612169
+Grouped,Balanced,2024-04-30,T-bills,0.004806041348
+Grouped,Balanced,2024-05-31,Conventional MPT,0.007529458003
+Grouped,Balanced,2024-05-31,Hybrid MPT,0.006095723639
+Grouped,Balanced,2024-05-31,T-bills,0.004514109709
+Grouped,Balanced,2024-06-28,Conventional MPT,0.005556650363
+Grouped,Balanced,2024-06-28,Hybrid MPT,0.003331041414
+Grouped,Balanced,2024-06-28,T-bills,0.004083670369
+Grouped,Balanced,2024-07-31,Conventional MPT,0.01925414815
+Grouped,Balanced,2024-07-31,Hybrid MPT,0.01890531783
+Grouped,Balanced,2024-07-31,T-bills,0.004840471936
+Grouped,Balanced,2024-08-30,Conventional MPT,0.01005294748
+Grouped,Balanced,2024-08-30,Hybrid MPT,0.007507959034
+Grouped,Balanced,2024-08-30,T-bills,0.004329051818
+Grouped,Balanced,2024-09-30,Conventional MPT,0.00382812855
+Grouped,Balanced,2024-09-30,Hybrid MPT,0.001743299299
+Grouped,Balanced,2024-09-30,T-bills,0.00432796848
+Grouped,Balanced,2024-10-31,Conventional MPT,-0.004615282415
+Grouped,Balanced,2024-10-31,Hybrid MPT,-0.003455130854
+Grouped,Balanced,2024-10-31,T-bills,0.003889473651
+Grouped,Balanced,2024-11-29,Conventional MPT,0.01528739156
+Grouped,Balanced,2024-11-29,Hybrid MPT,0.01107931276
+Grouped,Balanced,2024-11-29,T-bills,0.003630471252
+Grouped,Balanced,2024-12-31,Conventional MPT,-0.01921597485
+Grouped,Balanced,2024-12-31,Hybrid MPT,-0.01449073057
+Grouped,Balanced,2024-12-31,T-bills,0.003947944346
+Grouped,Balanced,2025-01-31,Conventional MPT,0.01358507466
+Grouped,Balanced,2025-01-31,Hybrid MPT,0.01398518555
+Grouped,Balanced,2025-01-31,T-bills,0.003636808964
+Grouped,Balanced,2025-02-28,Conventional MPT,0.004889384312
+Grouped,Balanced,2025-02-28,Hybrid MPT,0.006866046002
+Grouped,Balanced,2025-02-28,T-bills,0.003232682546
+Grouped,Balanced,2025-03-31,Conventional MPT,0.003792776526
+Grouped,Balanced,2025-03-31,Hybrid MPT,0.001612914639
+Grouped,Balanced,2025-03-31,T-bills,0.003595992293
+Grouped,Balanced,2025-04-30,Conventional MPT,-0.00783667903
+Grouped,Balanced,2025-04-30,Hybrid MPT,-0.01102411296
+Grouped,Balanced,2025-04-30,T-bills,0.003487691422
+Grouped,Balanced,2025-05-30,Conventional MPT,-0.001443014484
+Grouped,Balanced,2025-05-30,Hybrid MPT,3.058452799e-05
+Grouped,Balanced,2025-05-30,T-bills,0.003471889785
+Grouped,Balanced,2025-06-30,Conventional MPT,0.005908187581
+Grouped,Balanced,2025-06-30,Hybrid MPT,0.005274142518
+Grouped,Balanced,2025-06-30,T-bills,0.003628647062
+Grouped,Balanced,2025-07-31,Conventional MPT,0.003252521163
+Grouped,Balanced,2025-07-31,Hybrid MPT,0.0007389421978
+Grouped,Balanced,2025-07-31,T-bills,0.003653130623
+Grouped,Balanced,2025-08-29,Conventional MPT,0.01399128309
+Grouped,Balanced,2025-08-29,Hybrid MPT,0.02010674408
+Grouped,Balanced,2025-08-29,T-bills,0.003432304948
+Grouped,Balanced,2025-09-30,Conventional MPT,0.01054365635
+Grouped,Balanced,2025-09-30,Hybrid MPT,0.01316372792
+Grouped,Balanced,2025-09-30,T-bills,0.003661616865
+Grouped,Balanced,2025-10-31,Conventional MPT,0.008736024161
+Grouped,Balanced,2025-10-31,Hybrid MPT,0.003513325097
+Grouped,Balanced,2025-10-31,T-bills,0.003367087548
+Grouped,Balanced,2025-11-28,Conventional MPT,0.009158954836
+Grouped,Balanced,2025-11-28,Hybrid MPT,0.009058953247
+Grouped,Balanced,2025-11-28,T-bills,0.002952009729
+Grouped,Balanced,2025-12-31,Conventional MPT,0.003608411673
+Grouped,Balanced,2025-12-31,Hybrid MPT,0.004388133734
+Grouped,Balanced,2025-12-31,T-bills,0.003480070592
+Grouped,Defensive,2023-10-31,Conventional MPT,0.003529973865
+Grouped,Defensive,2023-10-31,Hybrid MPT,0.006025594431
+Grouped,Defensive,2023-10-31,T-bills,0.004751838661
+Grouped,Defensive,2023-11-30,Conventional MPT,0.00631552763
+Grouped,Defensive,2023-11-30,Hybrid MPT,0.004963188272
+Grouped,Defensive,2023-11-30,T-bills,0.004485445258
+Grouped,Defensive,2023-12-29,Conventional MPT,0.002064770249
+Grouped,Defensive,2023-12-29,Hybrid MPT,0.003845981541
+Grouped,Defensive,2023-12-29,T-bills,0.004222262887
+Grouped,Defensive,2024-01-31,Conventional MPT,0.004138072796
+Grouped,Defensive,2024-01-31,Hybrid MPT,0.003469258243
+Grouped,Defensive,2024-01-31,T-bills,0.004806041348
+Grouped,Defensive,2024-02-29,Conventional MPT,0.005158281872
+Grouped,Defensive,2024-02-29,Hybrid MPT,0.004704619621
+Grouped,Defensive,2024-02-29,T-bills,0.0041995763
+Grouped,Defensive,2024-03-28,Conventional MPT,0.00910835377
+Grouped,Defensive,2024-03-28,Hybrid MPT,0.0125882002
+Grouped,Defensive,2024-03-28,T-bills,0.004076371275
+Grouped,Defensive,2024-04-30,Conventional MPT,0.004115708512
+Grouped,Defensive,2024-04-30,Hybrid MPT,0.001365151421
+Grouped,Defensive,2024-04-30,T-bills,0.004806041348
+Grouped,Defensive,2024-05-31,Conventional MPT,0.009220921423
+Grouped,Defensive,2024-05-31,Hybrid MPT,0.007723101476
+Grouped,Defensive,2024-05-31,T-bills,0.004514109709
+Grouped,Defensive,2024-06-28,Conventional MPT,0.004648454021
+Grouped,Defensive,2024-06-28,Hybrid MPT,0.004133093951
+Grouped,Defensive,2024-06-28,T-bills,0.004083670369
+Grouped,Defensive,2024-07-31,Conventional MPT,0.0110170094
+Grouped,Defensive,2024-07-31,Hybrid MPT,0.01607635685
+Grouped,Defensive,2024-07-31,T-bills,0.004840471936
+Grouped,Defensive,2024-08-30,Conventional MPT,0.006253170196
+Grouped,Defensive,2024-08-30,Hybrid MPT,0.01012962732
+Grouped,Defensive,2024-08-30,T-bills,0.004329051818
+Grouped,Defensive,2024-09-30,Conventional MPT,0.004566450498
+Grouped,Defensive,2024-09-30,Hybrid MPT,0.00469582064
+Grouped,Defensive,2024-09-30,T-bills,0.00432796848
+Grouped,Defensive,2024-10-31,Conventional MPT,0.002450067937
+Grouped,Defensive,2024-10-31,Hybrid MPT,-0.001829260441
+Grouped,Defensive,2024-10-31,T-bills,0.003889473651
+Grouped,Defensive,2024-11-29,Conventional MPT,0.007607291817
+Grouped,Defensive,2024-11-29,Hybrid MPT,0.01058311611
+Grouped,Defensive,2024-11-29,T-bills,0.003630471252
+Grouped,Defensive,2024-12-31,Conventional MPT,-0.006494480281
+Grouped,Defensive,2024-12-31,Hybrid MPT,-0.01288042713
+Grouped,Defensive,2024-12-31,T-bills,0.003947944346
+Grouped,Defensive,2025-01-31,Conventional MPT,0.005215163012
+Grouped,Defensive,2025-01-31,Hybrid MPT,0.01166369095
+Grouped,Defensive,2025-01-31,T-bills,0.003636808964
+Grouped,Defensive,2025-02-28,Conventional MPT,0.003665713521
+Grouped,Defensive,2025-02-28,Hybrid MPT,0.002997163118
+Grouped,Defensive,2025-02-28,T-bills,0.003232682546
+Grouped,Defensive,2025-03-31,Conventional MPT,0.005130307282
+Grouped,Defensive,2025-03-31,Hybrid MPT,0.007432193178
+Grouped,Defensive,2025-03-31,T-bills,0.003595992293
+Grouped,Defensive,2025-04-30,Conventional MPT,0.0004910316992
+Grouped,Defensive,2025-04-30,Hybrid MPT,-0.009956548249
+Grouped,Defensive,2025-04-30,T-bills,0.003487691422
+Grouped,Defensive,2025-05-30,Conventional MPT,0.002290138445
+Grouped,Defensive,2025-05-30,Hybrid MPT,-0.0005425985773
+Grouped,Defensive,2025-05-30,T-bills,0.003471889785
+Grouped,Defensive,2025-06-30,Conventional MPT,0.005544527823
+Grouped,Defensive,2025-06-30,Hybrid MPT,0.005409995387
+Grouped,Defensive,2025-06-30,T-bills,0.003628647062
+Grouped,Defensive,2025-07-31,Conventional MPT,0.005023533829
+Grouped,Defensive,2025-07-31,Hybrid MPT,0.001578935498
+Grouped,Defensive,2025-07-31,T-bills,0.003653130623
+Grouped,Defensive,2025-08-29,Conventional MPT,0.004228101256
+Grouped,Defensive,2025-08-29,Hybrid MPT,0.01853051445
+Grouped,Defensive,2025-08-29,T-bills,0.003432304948
+Grouped,Defensive,2025-09-30,Conventional MPT,0.007238411647
+Grouped,Defensive,2025-09-30,Hybrid MPT,0.01279623627
+Grouped,Defensive,2025-09-30,T-bills,0.003661616865
+Grouped,Defensive,2025-10-31,Conventional MPT,0.003430578744
+Grouped,Defensive,2025-10-31,Hybrid MPT,0.006824143618
+Grouped,Defensive,2025-10-31,T-bills,0.003367087548
+Grouped,Defensive,2025-11-28,Conventional MPT,0.005569527435
+Grouped,Defensive,2025-11-28,Hybrid MPT,0.007119188767
+Grouped,Defensive,2025-11-28,T-bills,0.002952009729
+Grouped,Defensive,2025-12-31,Conventional MPT,0.00406317262
+Grouped,Defensive,2025-12-31,Hybrid MPT,0.004715626248
+Grouped,Defensive,2025-12-31,T-bills,0.003480070592
+Grouped,Growth,2023-10-31,Conventional MPT,-0.0002051251426
+Grouped,Growth,2023-10-31,Hybrid MPT,0.003561785801
+Grouped,Growth,2023-10-31,T-bills,0.004751838661
+Grouped,Growth,2023-11-30,Conventional MPT,0.02064271678
+Grouped,Growth,2023-11-30,Hybrid MPT,0.02213665296
+Grouped,Growth,2023-11-30,T-bills,0.004485445258
+Grouped,Growth,2023-12-29,Conventional MPT,-0.009147546999
+Grouped,Growth,2023-12-29,Hybrid MPT,-0.00787457952
+Grouped,Growth,2023-12-29,T-bills,0.004222262887
+Grouped,Growth,2024-01-31,Conventional MPT,0.00395513319
+Grouped,Growth,2024-01-31,Hybrid MPT,0.007676912977
+Grouped,Growth,2024-01-31,T-bills,0.004806041348
+Grouped,Growth,2024-02-29,Conventional MPT,0.0139920651
+Grouped,Growth,2024-02-29,Hybrid MPT,0.01683605473
+Grouped,Growth,2024-02-29,T-bills,0.0041995763
+Grouped,Growth,2024-03-28,Conventional MPT,0.02341970136
+Grouped,Growth,2024-03-28,Hybrid MPT,0.02191257955
+Grouped,Growth,2024-03-28,T-bills,0.004076371275
+Grouped,Growth,2024-04-30,Conventional MPT,-0.01155639134
+Grouped,Growth,2024-04-30,Hybrid MPT,-0.01283060929
+Grouped,Growth,2024-04-30,T-bills,0.004806041348
+Grouped,Growth,2024-05-31,Conventional MPT,0.008592996902
+Grouped,Growth,2024-05-31,Hybrid MPT,0.01234747512
+Grouped,Growth,2024-05-31,T-bills,0.004514109709
+Grouped,Growth,2024-06-28,Conventional MPT,0.006620175416
+Grouped,Growth,2024-06-28,Hybrid MPT,0.007128877011
+Grouped,Growth,2024-06-28,T-bills,0.004083670369
+Grouped,Growth,2024-07-31,Conventional MPT,0.0369028092
+Grouped,Growth,2024-07-31,Hybrid MPT,0.0394032301
+Grouped,Growth,2024-07-31,T-bills,0.004840471936
+Grouped,Growth,2024-08-30,Conventional MPT,0.01747323702
+Grouped,Growth,2024-08-30,Hybrid MPT,0.02229846867
+Grouped,Growth,2024-08-30,T-bills,0.004329051818
+Grouped,Growth,2024-09-30,Conventional MPT,0.0001403710772
+Grouped,Growth,2024-09-30,Hybrid MPT,0.003501366747
+Grouped,Growth,2024-09-30,T-bills,0.00432796848
+Grouped,Growth,2024-10-31,Conventional MPT,-0.01349488004
+Grouped,Growth,2024-10-31,Hybrid MPT,-0.01491562884
+Grouped,Growth,2024-10-31,T-bills,0.003889473651
+Grouped,Growth,2024-11-29,Conventional MPT,0.02788706916
+Grouped,Growth,2024-11-29,Hybrid MPT,0.02854444092
+Grouped,Growth,2024-11-29,T-bills,0.003630471252
+Grouped,Growth,2024-12-31,Conventional MPT,-0.04749656873
+Grouped,Growth,2024-12-31,Hybrid MPT,-0.04795962994
+Grouped,Growth,2024-12-31,T-bills,0.003947944346
+Grouped,Growth,2025-01-31,Conventional MPT,0.02741975956
+Grouped,Growth,2025-01-31,Hybrid MPT,0.03012805134
+Grouped,Growth,2025-01-31,T-bills,0.003636808964
+Grouped,Growth,2025-02-28,Conventional MPT,0.01191395898
+Grouped,Growth,2025-02-28,Hybrid MPT,0.01204477445
+Grouped,Growth,2025-02-28,T-bills,0.003232682546
+Grouped,Growth,2025-03-31,Conventional MPT,-0.002389217112
+Grouped,Growth,2025-03-31,Hybrid MPT,0.005593209476
+Grouped,Growth,2025-03-31,T-bills,0.003595992293
+Grouped,Growth,2025-04-30,Conventional MPT,-0.02442487186
+Grouped,Growth,2025-04-30,Hybrid MPT,-0.0239420697
+Grouped,Growth,2025-04-30,T-bills,0.003487691422
+Grouped,Growth,2025-05-30,Conventional MPT,-0.006615977904
+Grouped,Growth,2025-05-30,Hybrid MPT,-0.007342119376
+Grouped,Growth,2025-05-30,T-bills,0.003471889785
+Grouped,Growth,2025-06-30,Conventional MPT,0.008948786175
+Grouped,Growth,2025-06-30,Hybrid MPT,0.006540370552
+Grouped,Growth,2025-06-30,T-bills,0.003628647062
+Grouped,Growth,2025-07-31,Conventional MPT,0.003496269732
+Grouped,Growth,2025-07-31,Hybrid MPT,-0.006466348032
+Grouped,Growth,2025-07-31,T-bills,0.003653130623
+Grouped,Growth,2025-08-29,Conventional MPT,0.03503583744
+Grouped,Growth,2025-08-29,Hybrid MPT,0.04885266608
+Grouped,Growth,2025-08-29,T-bills,0.003432304948
+Grouped,Growth,2025-09-30,Conventional MPT,0.0130825231
+Grouped,Growth,2025-09-30,Hybrid MPT,0.02073144958
+Grouped,Growth,2025-09-30,T-bills,0.003661616865
+Grouped,Growth,2025-10-31,Conventional MPT,0.01076740636
+Grouped,Growth,2025-10-31,Hybrid MPT,0.01022512011
+Grouped,Growth,2025-10-31,T-bills,0.003367087548
+Grouped,Growth,2025-11-28,Conventional MPT,0.01526956229
+Grouped,Growth,2025-11-28,Hybrid MPT,0.0154704653
+Grouped,Growth,2025-11-28,T-bills,0.002952009729
+Grouped,Growth,2025-12-31,Conventional MPT,0.003650744394
+Grouped,Growth,2025-12-31,Hybrid MPT,0.003080491669
+Grouped,Growth,2025-12-31,T-bills,0.003480070592
+Hierarchical,Balanced,2023-10-31,Conventional MPT,0.001551090979
+Hierarchical,Balanced,2023-10-31,Hybrid MPT,-0.009414736993
+Hierarchical,Balanced,2023-10-31,T-bills,0.004751838661
+Hierarchical,Balanced,2023-11-30,Conventional MPT,0.01152084897
+Hierarchical,Balanced,2023-11-30,Hybrid MPT,0.01516874668
+Hierarchical,Balanced,2023-11-30,T-bills,0.004485445258
+Hierarchical,Balanced,2023-12-29,Conventional MPT,-0.001339089223
+Hierarchical,Balanced,2023-12-29,Hybrid MPT,0.005881917272
+Hierarchical,Balanced,2023-12-29,T-bills,0.004222262887
+Hierarchical,Balanced,2024-01-31,Conventional MPT,0.003727207045
+Hierarchical,Balanced,2024-01-31,Hybrid MPT,-0.005561687758
+Hierarchical,Balanced,2024-01-31,T-bills,0.004806041348
+Hierarchical,Balanced,2024-02-29,Conventional MPT,0.005866053164
+Hierarchical,Balanced,2024-02-29,Hybrid MPT,0.001068250135
+Hierarchical,Balanced,2024-02-29,T-bills,0.0041995763
+Hierarchical,Balanced,2024-03-28,Conventional MPT,0.0136585863
+Hierarchical,Balanced,2024-03-28,Hybrid MPT,0.02136426063
+Hierarchical,Balanced,2024-03-28,T-bills,0.004076371275
+Hierarchical,Balanced,2024-04-30,Conventional MPT,-0.001101815772
+Hierarchical,Balanced,2024-04-30,Hybrid MPT,-0.001703949263
+Hierarchical,Balanced,2024-04-30,T-bills,0.004806041348
+Hierarchical,Balanced,2024-05-31,Conventional MPT,0.007529458003
+Hierarchical,Balanced,2024-05-31,Hybrid MPT,0.009794103064
+Hierarchical,Balanced,2024-05-31,T-bills,0.004514109709
+Hierarchical,Balanced,2024-06-28,Conventional MPT,0.005556650363
+Hierarchical,Balanced,2024-06-28,Hybrid MPT,6.326682369e-05
+Hierarchical,Balanced,2024-06-28,T-bills,0.004083670369
+Hierarchical,Balanced,2024-07-31,Conventional MPT,0.01925414815
+Hierarchical,Balanced,2024-07-31,Hybrid MPT,0.01781198563
+Hierarchical,Balanced,2024-07-31,T-bills,0.004840471936
+Hierarchical,Balanced,2024-08-30,Conventional MPT,0.01005294748
+Hierarchical,Balanced,2024-08-30,Hybrid MPT,0.005617914269
+Hierarchical,Balanced,2024-08-30,T-bills,0.004329051818
+Hierarchical,Balanced,2024-09-30,Conventional MPT,0.00382812855
+Hierarchical,Balanced,2024-09-30,Hybrid MPT,0.001548266794
+Hierarchical,Balanced,2024-09-30,T-bills,0.00432796848
+Hierarchical,Balanced,2024-10-31,Conventional MPT,-0.004615282415
+Hierarchical,Balanced,2024-10-31,Hybrid MPT,-0.003998375146
+Hierarchical,Balanced,2024-10-31,T-bills,0.003889473651
+Hierarchical,Balanced,2024-11-29,Conventional MPT,0.01528739156
+Hierarchical,Balanced,2024-11-29,Hybrid MPT,0.007828610553
+Hierarchical,Balanced,2024-11-29,T-bills,0.003630471252
+Hierarchical,Balanced,2024-12-31,Conventional MPT,-0.01921597485
+Hierarchical,Balanced,2024-12-31,Hybrid MPT,-0.01319324448
+Hierarchical,Balanced,2024-12-31,T-bills,0.003947944346
+Hierarchical,Balanced,2025-01-31,Conventional MPT,0.01358507466
+Hierarchical,Balanced,2025-01-31,Hybrid MPT,0.01353365064
+Hierarchical,Balanced,2025-01-31,T-bills,0.003636808964
+Hierarchical,Balanced,2025-02-28,Conventional MPT,0.004889384312
+Hierarchical,Balanced,2025-02-28,Hybrid MPT,0.006174602081
+Hierarchical,Balanced,2025-02-28,T-bills,0.003232682546
+Hierarchical,Balanced,2025-03-31,Conventional MPT,0.003792776526
+Hierarchical,Balanced,2025-03-31,Hybrid MPT,0.0009093728452
+Hierarchical,Balanced,2025-03-31,T-bills,0.003595992293
+Hierarchical,Balanced,2025-04-30,Conventional MPT,-0.00783667903
+Hierarchical,Balanced,2025-04-30,Hybrid MPT,-0.01152286027
+Hierarchical,Balanced,2025-04-30,T-bills,0.003487691422
+Hierarchical,Balanced,2025-05-30,Conventional MPT,-0.001443014484
+Hierarchical,Balanced,2025-05-30,Hybrid MPT,-0.0001954900376
+Hierarchical,Balanced,2025-05-30,T-bills,0.003471889785
+Hierarchical,Balanced,2025-06-30,Conventional MPT,0.005908187581
+Hierarchical,Balanced,2025-06-30,Hybrid MPT,0.005682099227
+Hierarchical,Balanced,2025-06-30,T-bills,0.003628647062
+Hierarchical,Balanced,2025-07-31,Conventional MPT,0.003252521163
+Hierarchical,Balanced,2025-07-31,Hybrid MPT,0.0007185399787
+Hierarchical,Balanced,2025-07-31,T-bills,0.003653130623
+Hierarchical,Balanced,2025-08-29,Conventional MPT,0.01399128309
+Hierarchical,Balanced,2025-08-29,Hybrid MPT,0.01995424266
+Hierarchical,Balanced,2025-08-29,T-bills,0.003432304948
+Hierarchical,Balanced,2025-09-30,Conventional MPT,0.01054365635
+Hierarchical,Balanced,2025-09-30,Hybrid MPT,0.01122401977
+Hierarchical,Balanced,2025-09-30,T-bills,0.003661616865
+Hierarchical,Balanced,2025-10-31,Conventional MPT,0.008736024161
+Hierarchical,Balanced,2025-10-31,Hybrid MPT,0.002236392829
+Hierarchical,Balanced,2025-10-31,T-bills,0.003367087548
+Hierarchical,Balanced,2025-11-28,Conventional MPT,0.009158954836
+Hierarchical,Balanced,2025-11-28,Hybrid MPT,0.009056482691
+Hierarchical,Balanced,2025-11-28,T-bills,0.002952009729
+Hierarchical,Balanced,2025-12-31,Conventional MPT,0.003608411673
+Hierarchical,Balanced,2025-12-31,Hybrid MPT,0.004317441595
+Hierarchical,Balanced,2025-12-31,T-bills,0.003480070592
+Hierarchical,Defensive,2023-10-31,Conventional MPT,0.003529973865
+Hierarchical,Defensive,2023-10-31,Hybrid MPT,0.008142262013
+Hierarchical,Defensive,2023-10-31,T-bills,0.004751838661
+Hierarchical,Defensive,2023-11-30,Conventional MPT,0.00631552763
+Hierarchical,Defensive,2023-11-30,Hybrid MPT,0.006296021548
+Hierarchical,Defensive,2023-11-30,T-bills,0.004485445258
+Hierarchical,Defensive,2023-12-29,Conventional MPT,0.002064770249
+Hierarchical,Defensive,2023-12-29,Hybrid MPT,0.006898718955
+Hierarchical,Defensive,2023-12-29,T-bills,0.004222262887
+Hierarchical,Defensive,2024-01-31,Conventional MPT,0.004138072796
+Hierarchical,Defensive,2024-01-31,Hybrid MPT,0.001281600474
+Hierarchical,Defensive,2024-01-31,T-bills,0.004806041348
+Hierarchical,Defensive,2024-02-29,Conventional MPT,0.005158281872
+Hierarchical,Defensive,2024-02-29,Hybrid MPT,0.002994799446
+Hierarchical,Defensive,2024-02-29,T-bills,0.0041995763
+Hierarchical,Defensive,2024-03-28,Conventional MPT,0.00910835377
+Hierarchical,Defensive,2024-03-28,Hybrid MPT,0.01686584494
+Hierarchical,Defensive,2024-03-28,T-bills,0.004076371275
+Hierarchical,Defensive,2024-04-30,Conventional MPT,0.004115708512
+Hierarchical,Defensive,2024-04-30,Hybrid MPT,0.002280235404
+Hierarchical,Defensive,2024-04-30,T-bills,0.004806041348
+Hierarchical,Defensive,2024-05-31,Conventional MPT,0.009220921423
+Hierarchical,Defensive,2024-05-31,Hybrid MPT,0.009863935021
+Hierarchical,Defensive,2024-05-31,T-bills,0.004514109709
+Hierarchical,Defensive,2024-06-28,Conventional MPT,0.004648454021
+Hierarchical,Defensive,2024-06-28,Hybrid MPT,0.005096657145
+Hierarchical,Defensive,2024-06-28,T-bills,0.004083670369
+Hierarchical,Defensive,2024-07-31,Conventional MPT,0.0110170094
+Hierarchical,Defensive,2024-07-31,Hybrid MPT,0.02020776671
+Hierarchical,Defensive,2024-07-31,T-bills,0.004840471936
+Hierarchical,Defensive,2024-08-30,Conventional MPT,0.006253170196
+Hierarchical,Defensive,2024-08-30,Hybrid MPT,0.009367954766
+Hierarchical,Defensive,2024-08-30,T-bills,0.004329051818
+Hierarchical,Defensive,2024-09-30,Conventional MPT,0.004566450498
+Hierarchical,Defensive,2024-09-30,Hybrid MPT,0.007504553641
+Hierarchical,Defensive,2024-09-30,T-bills,0.00432796848
+Hierarchical,Defensive,2024-10-31,Conventional MPT,0.002450067937
+Hierarchical,Defensive,2024-10-31,Hybrid MPT,-0.0002146636563
+Hierarchical,Defensive,2024-10-31,T-bills,0.003889473651
+Hierarchical,Defensive,2024-11-29,Conventional MPT,0.007607291817
+Hierarchical,Defensive,2024-11-29,Hybrid MPT,0.01529680003
+Hierarchical,Defensive,2024-11-29,T-bills,0.003630471252
+Hierarchical,Defensive,2024-12-31,Conventional MPT,-0.006494480281
+Hierarchical,Defensive,2024-12-31,Hybrid MPT,-0.009017177007
+Hierarchical,Defensive,2024-12-31,T-bills,0.003947944346
+Hierarchical,Defensive,2025-01-31,Conventional MPT,0.005215163012
+Hierarchical,Defensive,2025-01-31,Hybrid MPT,0.0111043512
+Hierarchical,Defensive,2025-01-31,T-bills,0.003636808964
+Hierarchical,Defensive,2025-02-28,Conventional MPT,0.003665713521
+Hierarchical,Defensive,2025-02-28,Hybrid MPT,-0.0003762841021
+Hierarchical,Defensive,2025-02-28,T-bills,0.003232682546
+Hierarchical,Defensive,2025-03-31,Conventional MPT,0.005130307282
+Hierarchical,Defensive,2025-03-31,Hybrid MPT,0.009397806348
+Hierarchical,Defensive,2025-03-31,T-bills,0.003595992293
+Hierarchical,Defensive,2025-04-30,Conventional MPT,0.0004910316992
+Hierarchical,Defensive,2025-04-30,Hybrid MPT,-0.0102363836
+Hierarchical,Defensive,2025-04-30,T-bills,0.003487691422
+Hierarchical,Defensive,2025-05-30,Conventional MPT,0.002290138445
+Hierarchical,Defensive,2025-05-30,Hybrid MPT,-0.004834446407
+Hierarchical,Defensive,2025-05-30,T-bills,0.003471889785
+Hierarchical,Defensive,2025-06-30,Conventional MPT,0.005544527823
+Hierarchical,Defensive,2025-06-30,Hybrid MPT,0.005791605009
+Hierarchical,Defensive,2025-06-30,T-bills,0.003628647062
+Hierarchical,Defensive,2025-07-31,Conventional MPT,0.005023533829
+Hierarchical,Defensive,2025-07-31,Hybrid MPT,-0.003922309498
+Hierarchical,Defensive,2025-07-31,T-bills,0.003653130623
+Hierarchical,Defensive,2025-08-29,Conventional MPT,0.004228101256
+Hierarchical,Defensive,2025-08-29,Hybrid MPT,0.02706125059
+Hierarchical,Defensive,2025-08-29,T-bills,0.003432304948
+Hierarchical,Defensive,2025-09-30,Conventional MPT,0.007238411647
+Hierarchical,Defensive,2025-09-30,Hybrid MPT,0.01546530075
+Hierarchical,Defensive,2025-09-30,T-bills,0.003661616865
+Hierarchical,Defensive,2025-10-31,Conventional MPT,0.003430578744
+Hierarchical,Defensive,2025-10-31,Hybrid MPT,0.006057123719
+Hierarchical,Defensive,2025-10-31,T-bills,0.003367087548
+Hierarchical,Defensive,2025-11-28,Conventional MPT,0.005569527435
+Hierarchical,Defensive,2025-11-28,Hybrid MPT,0.005130295216
+Hierarchical,Defensive,2025-11-28,T-bills,0.002952009729
+Hierarchical,Defensive,2025-12-31,Conventional MPT,0.00406317262
+Hierarchical,Defensive,2025-12-31,Hybrid MPT,0.005203622022
+Hierarchical,Defensive,2025-12-31,T-bills,0.003480070592
+Hierarchical,Growth,2023-10-31,Conventional MPT,-0.0002051251426
+Hierarchical,Growth,2023-10-31,Hybrid MPT,-0.001532612704
+Hierarchical,Growth,2023-10-31,T-bills,0.004751838661
+Hierarchical,Growth,2023-11-30,Conventional MPT,0.02064271678
+Hierarchical,Growth,2023-11-30,Hybrid MPT,0.02076404867
+Hierarchical,Growth,2023-11-30,T-bills,0.004485445258
+Hierarchical,Growth,2023-12-29,Conventional MPT,-0.009147546999
+Hierarchical,Growth,2023-12-29,Hybrid MPT,-0.009702735428
+Hierarchical,Growth,2023-12-29,T-bills,0.004222262887
+Hierarchical,Growth,2024-01-31,Conventional MPT,0.00395513319
+Hierarchical,Growth,2024-01-31,Hybrid MPT,0.005035887121
+Hierarchical,Growth,2024-01-31,T-bills,0.004806041348
+Hierarchical,Growth,2024-02-29,Conventional MPT,0.0139920651
+Hierarchical,Growth,2024-02-29,Hybrid MPT,0.01612582613
+Hierarchical,Growth,2024-02-29,T-bills,0.0041995763
+Hierarchical,Growth,2024-03-28,Conventional MPT,0.02341970136
+Hierarchical,Growth,2024-03-28,Hybrid MPT,0.02088605501
+Hierarchical,Growth,2024-03-28,T-bills,0.004076371275
+Hierarchical,Growth,2024-04-30,Conventional MPT,-0.01155639134
+Hierarchical,Growth,2024-04-30,Hybrid MPT,-0.01289942096
+Hierarchical,Growth,2024-04-30,T-bills,0.004806041348
+Hierarchical,Growth,2024-05-31,Conventional MPT,0.008592996902
+Hierarchical,Growth,2024-05-31,Hybrid MPT,0.01635976352
+Hierarchical,Growth,2024-05-31,T-bills,0.004514109709
+Hierarchical,Growth,2024-06-28,Conventional MPT,0.006620175416
+Hierarchical,Growth,2024-06-28,Hybrid MPT,0.005734871723
+Hierarchical,Growth,2024-06-28,T-bills,0.004083670369
+Hierarchical,Growth,2024-07-31,Conventional MPT,0.0369028092
+Hierarchical,Growth,2024-07-31,Hybrid MPT,0.04134993946
+Hierarchical,Growth,2024-07-31,T-bills,0.004840471936
+Hierarchical,Growth,2024-08-30,Conventional MPT,0.01747323702
+Hierarchical,Growth,2024-08-30,Hybrid MPT,0.02078036982
+Hierarchical,Growth,2024-08-30,T-bills,0.004329051818
+Hierarchical,Growth,2024-09-30,Conventional MPT,0.0001403710772
+Hierarchical,Growth,2024-09-30,Hybrid MPT,0.002000846908
+Hierarchical,Growth,2024-09-30,T-bills,0.00432796848
+Hierarchical,Growth,2024-10-31,Conventional MPT,-0.01349488004
+Hierarchical,Growth,2024-10-31,Hybrid MPT,-0.01523023033
+Hierarchical,Growth,2024-10-31,T-bills,0.003889473651
+Hierarchical,Growth,2024-11-29,Conventional MPT,0.02788706916
+Hierarchical,Growth,2024-11-29,Hybrid MPT,0.03100059941
+Hierarchical,Growth,2024-11-29,T-bills,0.003630471252
+Hierarchical,Growth,2024-12-31,Conventional MPT,-0.04749656873
+Hierarchical,Growth,2024-12-31,Hybrid MPT,-0.05055646292
+Hierarchical,Growth,2024-12-31,T-bills,0.003947944346
+Hierarchical,Growth,2025-01-31,Conventional MPT,0.02741975956
+Hierarchical,Growth,2025-01-31,Hybrid MPT,0.03364767398
+Hierarchical,Growth,2025-01-31,T-bills,0.003636808964
+Hierarchical,Growth,2025-02-28,Conventional MPT,0.01191395898
+Hierarchical,Growth,2025-02-28,Hybrid MPT,0.002663035096
+Hierarchical,Growth,2025-02-28,T-bills,0.003232682546
+Hierarchical,Growth,2025-03-31,Conventional MPT,-0.002389217112
+Hierarchical,Growth,2025-03-31,Hybrid MPT,0.001923457207
+Hierarchical,Growth,2025-03-31,T-bills,0.003595992293
+Hierarchical,Growth,2025-04-30,Conventional MPT,-0.02442487186
+Hierarchical,Growth,2025-04-30,Hybrid MPT,-0.02120328312
+Hierarchical,Growth,2025-04-30,T-bills,0.003487691422
+Hierarchical,Growth,2025-05-30,Conventional MPT,-0.006615977904
+Hierarchical,Growth,2025-05-30,Hybrid MPT,-0.008106403349
+Hierarchical,Growth,2025-05-30,T-bills,0.003471889785
+Hierarchical,Growth,2025-06-30,Conventional MPT,0.008948786175
+Hierarchical,Growth,2025-06-30,Hybrid MPT,0.00680381727
+Hierarchical,Growth,2025-06-30,T-bills,0.003628647062
+Hierarchical,Growth,2025-07-31,Conventional MPT,0.003496269732
+Hierarchical,Growth,2025-07-31,Hybrid MPT,-0.004040426219
+Hierarchical,Growth,2025-07-31,T-bills,0.003653130623
+Hierarchical,Growth,2025-08-29,Conventional MPT,0.03503583744
+Hierarchical,Growth,2025-08-29,Hybrid MPT,0.04607126771
+Hierarchical,Growth,2025-08-29,T-bills,0.003432304948
+Hierarchical,Growth,2025-09-30,Conventional MPT,0.0130825231
+Hierarchical,Growth,2025-09-30,Hybrid MPT,0.02421520104
+Hierarchical,Growth,2025-09-30,T-bills,0.003661616865
+Hierarchical,Growth,2025-10-31,Conventional MPT,0.01076740636
+Hierarchical,Growth,2025-10-31,Hybrid MPT,0.009788327485
+Hierarchical,Growth,2025-10-31,T-bills,0.003367087548
+Hierarchical,Growth,2025-11-28,Conventional MPT,0.01526956229
+Hierarchical,Growth,2025-11-28,Hybrid MPT,0.01573680976
+Hierarchical,Growth,2025-11-28,T-bills,0.002952009729
+Hierarchical,Growth,2025-12-31,Conventional MPT,0.003650744394
+Hierarchical,Growth,2025-12-31,Hybrid MPT,0.003288121697
+Hierarchical,Growth,2025-12-31,T-bills,0.003480070592
